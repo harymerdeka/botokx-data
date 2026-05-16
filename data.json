@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T16:06:01.676029+00:00",
+  "generated_at": "2026-05-16T16:16:31.326882+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 530.3885,
@@ -22,7 +22,12 @@
       "count_str": "{0: 15, 1: 10}",
       "confidence": 0.916,
       "risk_level": "HIGH",
-      "cycle_buy_at": "11:01"
+      "cycle_buy_at": "11:01",
+      "cur_price_at_order": 0.032801,
+      "limit_price": 0.032637,
+      "offset_pct": -0.5,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     },
     {
       "ts": "2026-05-15T08:03:05.537799+00:00",
@@ -33,7 +38,8 @@
       "exit_price": 0.0326517755772762,
       "pnl_usdt": -0.09328438808785222,
       "pnl_pct": -0.034763744172627335,
-      "reason": "4h_exit_at_passed_signal_lost"
+      "reason": "4h_exit_at_passed_signal_lost",
+      "opened_at": "2026-05-15T04:02:59.600367+00:00"
     },
     {
       "ts": "2026-05-15T12:03:07.627416+00:00",
@@ -47,7 +53,12 @@
       "count_str": "{0: 80, 1: 1}",
       "confidence": 0.761,
       "risk_level": "LOW",
-      "cycle_buy_at": "19:01"
+      "cycle_buy_at": "19:01",
+      "cur_price_at_order": 0.05009,
+      "limit_price": 0.049589,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     },
     {
       "ts": "2026-05-15T12:03:07.976204+00:00",
@@ -61,7 +72,12 @@
       "count_str": "{0: 80, 1: 1}",
       "confidence": 0.961,
       "risk_level": "LOW",
-      "cycle_buy_at": "19:01"
+      "cycle_buy_at": "19:01",
+      "cur_price_at_order": 0.010176,
+      "limit_price": 0.010074,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     },
     {
       "ts": "2026-05-15T14:31:00.668772+00:00",
@@ -72,7 +88,8 @@
       "exit_price": 0.04854664484009777,
       "pnl_usdt": -5.855956649999939,
       "pnl_pct": -2.182280440655768,
-      "reason": "dust_below_min_sz"
+      "reason": "dust_below_min_sz",
+      "opened_at": "2026-05-15T12:03:07.627266+00:00"
     },
     {
       "ts": "2026-05-15T16:04:55.052444+00:00",
@@ -83,7 +100,8 @@
       "exit_price": 0.0099552504603898,
       "pnl_usdt": -3.3328076091774506,
       "pnl_pct": -1.257829181281486,
-      "reason": "4h_exit_at_passed_signal_lost"
+      "reason": "4h_exit_at_passed_signal_lost",
+      "opened_at": "2026-05-15T12:03:07.975876+00:00"
     },
     {
       "ts": "2026-05-15T16:04:55.395456+00:00",
@@ -97,7 +115,12 @@
       "count_str": "{0: 51, 1: 31}",
       "confidence": 0.814,
       "risk_level": "HIGH",
-      "cycle_buy_at": "23:01"
+      "cycle_buy_at": "23:01",
+      "cur_price_at_order": 0.04373,
+      "limit_price": 0.043293,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     },
     {
       "ts": "2026-05-15T16:04:55.732976+00:00",
@@ -111,7 +134,12 @@
       "count_str": "{0: 69, 1: 13}",
       "confidence": 0.757,
       "risk_level": "LOW",
-      "cycle_buy_at": "23:01"
+      "cycle_buy_at": "23:01",
+      "cur_price_at_order": 0.03083,
+      "limit_price": 0.030522,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     },
     {
       "ts": "2026-05-15T17:31:01.142464+00:00",
@@ -122,7 +150,8 @@
       "exit_price": 0.0441108718496241,
       "pnl_usdt": 4.869584548679882,
       "pnl_pct": 1.8146988961524515,
-      "reason": "mid_check_early_tp_4H_1pct"
+      "reason": "mid_check_early_tp_4H_1pct",
+      "opened_at": "2026-05-15T16:04:55.395114+00:00"
     },
     {
       "ts": "2026-05-15T17:31:01.428864+00:00",
@@ -136,7 +165,12 @@
       "count_str": "",
       "confidence": 0,
       "risk_level": "",
-      "cycle_buy_at": "23:01"
+      "cycle_buy_at": "23:01",
+      "cur_price_at_order": 0.04411,
+      "limit_price": 0.043669,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     },
     {
       "ts": "2026-05-15T20:23:51.873808+00:00",
@@ -147,7 +181,8 @@
       "exit_price": null,
       "pnl_usdt": null,
       "pnl_pct": null,
-      "reason": "tp_sl_filled"
+      "reason": "tp_sl_filled",
+      "opened_at": "2026-05-15T16:04:55.732835+00:00"
     },
     {
       "ts": "2026-05-15T20:23:52.199751+00:00",
@@ -158,7 +193,8 @@
       "exit_price": null,
       "pnl_usdt": null,
       "pnl_pct": null,
-      "reason": "dust_below_min_sz"
+      "reason": "dust_below_min_sz",
+      "opened_at": "2026-05-15T17:31:01.428738+00:00"
     }
   ],
   "summary": {
