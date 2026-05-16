@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-16T15:49:52.584369+00:00",
+  "generated_at": "2026-05-16T16:06:01.676029+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 530.3885,
     "positions_count": 0,
-    "last_cycle_at": "2026-05-16T12:03:20.412000+00:00",
-    "last_cycle_label_wib": "19:01",
+    "last_cycle_at": "2026-05-16T16:05:30.189000+00:00",
+    "last_cycle_label_wib": "23:01",
     "capital_snapshot_date": "2026-05-16"
   },
   "positions": [],
@@ -344,26 +344,26 @@
       "predicted_dir": "down",
       "btc_window_utc": "2026-05-16 12:00 UTC",
       "btc_open": 78089.0,
-      "btc_close": 78219.3,
-      "btc_return_pct": 0.167,
+      "btc_close": 78237.1,
+      "btc_return_pct": 0.19,
       "actual_dir": "flat",
       "direction_match": false,
-      "candle_state": "open",
+      "candle_state": "closed",
       "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 6,
+    "total_valid": 7,
     "strict_matches": 4,
-    "sign_matches": 6,
-    "strict_pct": 66.7,
+    "sign_matches": 7,
+    "strict_pct": 57.1,
     "sign_pct": 100.0,
     "by_bucket": {
       "very_bear": {
-        "n": 5,
+        "n": 6,
         "matches": 4,
-        "match_pct": 80.0,
-        "avg_btc_return": -0.672
+        "match_pct": 66.7,
+        "avg_btc_return": -0.528
       },
       "bull": {
         "n": 1,
@@ -374,27 +374,26 @@
     }
   },
   "current_signal": {
-    "total": 146,
+    "total": 154,
     "buy_count": 0,
-    "sell_count": 146,
+    "sell_count": 154,
     "hold_count": 0,
     "ratio": 0.0,
     "precision_distribution": {
-      ">=0.90": 2,
-      "0.85-0.90": 1,
-      "0.80-0.85": 2,
-      "0.75-0.80": 1,
-      "0.70-0.75": 2,
-      "0.60-0.70": 13,
-      "0.50-0.60": 49,
-      "0-0.50": 76
+      ">=0.90": 1,
+      "0.85-0.90": 2,
+      "0.80-0.85": 3,
+      "0.70-0.75": 4,
+      "0.60-0.70": 21,
+      "0.50-0.60": 46,
+      "0-0.50": 77
     },
     "count1_distribution": {
-      "5-9": 38,
-      "3-4": 11,
-      "10-19": 45,
-      ">=20": 52
+      "5-9": 24,
+      "10-19": 60,
+      "3-4": 16,
+      ">=20": 54
     },
-    "file_mtime": "2026-05-16T12:03:20.285019+00:00"
+    "file_mtime": "2026-05-16T16:05:30.079631+00:00"
   }
 }
