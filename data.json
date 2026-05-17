@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T22:32:01.772404+00:00",
+  "generated_at": "2026-05-17T23:32:01.979161+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 532.5047,
@@ -13,7 +13,7 @@
       "symbol": "KITE-USDT",
       "rule": "4H",
       "entry_price": 0.21228,
-      "current_price": 0.21426,
+      "current_price": 0.21403,
       "size": 1254.25,
       "quote_spent": 266.25219,
       "unrealized_pnl_pct": null,
@@ -28,7 +28,7 @@
       "symbol": "SAHARA-USDT",
       "rule": "4H",
       "entry_price": 0.03609,
-      "current_price": 0.03687,
+      "current_price": 0.03692,
       "size": 7316.6,
       "quote_spent": 264.056094,
       "unrealized_pnl_pct": null,
@@ -822,12 +822,12 @@
     "current_position": {
       "entry_ts": "2026-05-17T20:03:12.825490+00:00",
       "entry_price": 78403.5,
-      "current_btc_price": 78082.0,
+      "current_btc_price": 77781.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.196,
-      "unrealized_pnl_pct": 0.82,
-      "unrealized_pnl_usdt": 0.8201
+      "unrealized_pnl_pct": 1.587,
+      "unrealized_pnl_usdt": 1.5867
     },
     "trades_history": [
       {
