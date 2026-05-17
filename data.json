@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T15:41:47.358660+00:00",
+  "generated_at": "2026-05-17T15:48:29.342339+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 530.4116,
@@ -597,23 +597,38 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-16T16:48:12.951063+00:00",
-      "entry_price": 78217.0,
-      "current_btc_price": 78019.5,
+      "entry_ts": "2026-05-17T15:46:50.846386+00:00",
+      "entry_price": 78014.4,
+      "current_btc_price": 78043.3,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 0.505,
-      "unrealized_pnl_usdt": 0.505
+      "ratio_at_entry": 0.444,
+      "unrealized_pnl_pct": -0.074,
+      "unrealized_pnl_usdt": -0.0741
     },
-    "trades_history": [],
+    "trades_history": [
+      {
+        "close_ts": "2026-05-17T15:46:50.706871+00:00",
+        "open_ts": "",
+        "entry_price": 78217.0,
+        "exit_price": 78014.4,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": 0.518,
+        "pnl_usdt": 0.518,
+        "ratio_at_entry": 0.0,
+        "ratio_at_exit": 0.444,
+        "reason": "time_4h_exit",
+        "dry_run": true
+      }
+    ],
     "summary": {
-      "total_closed": 0,
-      "win_count": 0,
+      "total_closed": 1,
+      "win_count": 1,
       "loss_count": 0,
-      "win_rate_pct": 0,
-      "net_pnl_usdt": 0,
-      "avg_pnl_pct": 0
+      "win_rate_pct": 100.0,
+      "net_pnl_usdt": 0.518,
+      "avg_pnl_pct": 0.518
     }
   }
 }
