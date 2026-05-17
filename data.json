@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T16:22:02.980577+00:00",
+  "generated_at": "2026-05-17T16:28:21.758371+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 530.4116,
@@ -13,27 +13,31 @@
       "symbol": "ATH-USDT",
       "rule": "4H",
       "entry_price": 0.00583,
-      "current_price": 0.005884,
+      "current_price": 0.00589,
       "size": 45489.8,
       "quote_spent": 265.205534,
-      "unrealized_pnl_pct": 0.926,
-      "unrealized_pnl_usdt": 2.4564,
+      "unrealized_pnl_pct": null,
+      "unrealized_pnl_usdt": null,
       "exit_at": "2026-05-18T02:59:00+07:00",
       "atr_pct": 0.0,
-      "opened_at": "2026-05-17T16:05:30.539184+00:00"
+      "opened_at": "2026-05-17T16:05:30.539184+00:00",
+      "is_filled": false,
+      "order_state": "live"
     },
     {
       "symbol": "ZEN-USDT",
       "rule": "4H",
       "entry_price": 5.881,
-      "current_price": 5.942,
+      "current_price": 5.941,
       "size": 44.7209,
       "quote_spent": 263.0036129,
-      "unrealized_pnl_pct": 1.037,
-      "unrealized_pnl_usdt": 2.728,
+      "unrealized_pnl_pct": null,
+      "unrealized_pnl_usdt": null,
       "exit_at": "2026-05-18T02:59:00+07:00",
       "atr_pct": 0.0,
-      "opened_at": "2026-05-17T16:05:30.878611+00:00"
+      "opened_at": "2026-05-17T16:05:30.878611+00:00",
+      "is_filled": false,
+      "order_state": "live"
     }
   ],
   "trades_history": [
@@ -705,12 +709,12 @@
     "current_position": {
       "entry_ts": "2026-05-17T15:46:50.846386+00:00",
       "entry_price": 78014.4,
-      "current_btc_price": 78082.8,
+      "current_btc_price": 78128.7,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.444,
-      "unrealized_pnl_pct": -0.175,
-      "unrealized_pnl_usdt": -0.1754
+      "unrealized_pnl_pct": -0.293,
+      "unrealized_pnl_usdt": -0.293
     },
     "trades_history": [
       {
