@@ -1,14 +1,41 @@
 {
-  "generated_at": "2026-05-17T15:48:29.342339+00:00",
+  "generated_at": "2026-05-17T16:06:01.540850+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 530.4116,
-    "positions_count": 0,
-    "last_cycle_at": "2026-05-17T12:03:14.705000+00:00",
-    "last_cycle_label_wib": "19:01",
+    "positions_count": 2,
+    "last_cycle_at": "2026-05-17T16:05:30.109000+00:00",
+    "last_cycle_label_wib": "23:01",
     "capital_snapshot_date": "2026-05-17"
   },
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "ATH-USDT",
+      "rule": "4H",
+      "entry_price": 0.00583,
+      "current_price": 0.005889,
+      "size": 45489.8,
+      "quote_spent": 265.205534,
+      "unrealized_pnl_pct": 1.012,
+      "unrealized_pnl_usdt": 2.6839,
+      "exit_at": "2026-05-18T02:59:00+07:00",
+      "atr_pct": 0.0,
+      "opened_at": "2026-05-17T16:05:30.539184+00:00"
+    },
+    {
+      "symbol": "ZEN-USDT",
+      "rule": "4H",
+      "entry_price": 5.881,
+      "current_price": 5.94,
+      "size": 44.7209,
+      "quote_spent": 263.0036129,
+      "unrealized_pnl_pct": 1.003,
+      "unrealized_pnl_usdt": 2.6385,
+      "exit_at": "2026-05-18T02:59:00+07:00",
+      "atr_pct": 0.0,
+      "opened_at": "2026-05-17T16:05:30.878611+00:00"
+    }
+  ],
   "trades_history": [
     {
       "ts": "2026-05-15T04:02:59.600474+00:00",
@@ -195,6 +222,44 @@
       "pnl_pct": null,
       "reason": "dust_below_min_sz",
       "opened_at": "2026-05-15T17:31:01.428738+00:00"
+    },
+    {
+      "ts": "2026-05-17T16:05:30.540734+00:00",
+      "event": "buy",
+      "symbol": "ATH-USDT",
+      "rule": "4H",
+      "entry_price": 0.00583,
+      "size": 45489.8,
+      "quote_spent": 265.205534,
+      "precision": 0.758,
+      "count_str": "{0: 77, 1: 5}",
+      "confidence": 0.574,
+      "risk_level": "LOW",
+      "cycle_buy_at": "23:01",
+      "cur_price_at_order": 0.005889,
+      "limit_price": 0.00583,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
+    },
+    {
+      "ts": "2026-05-17T16:05:30.879931+00:00",
+      "event": "buy",
+      "symbol": "ZEN-USDT",
+      "rule": "4H",
+      "entry_price": 5.881,
+      "size": 44.7209,
+      "quote_spent": 263.0036129,
+      "precision": 0.739,
+      "count_str": "{0: 70, 1: 12}",
+      "confidence": 0.557,
+      "risk_level": "LOW",
+      "cycle_buy_at": "23:01",
+      "cur_price_at_order": 5.94,
+      "limit_price": 5.8806,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     }
   ],
   "summary": {
@@ -538,28 +603,28 @@
       "predicted_dir": "down",
       "btc_window_utc": "2026-05-17 12:00 UTC",
       "btc_start": 78412.7,
-      "btc_end": 78032.7,
+      "btc_end": 78041.8,
       "btc_open": 78412.7,
-      "btc_close": 78032.7,
-      "btc_return_pct": -0.485,
+      "btc_close": 78041.8,
+      "btc_return_pct": -0.473,
       "actual_dir": "down",
       "direction_match": true,
-      "candle_state": "open",
+      "candle_state": "closed",
       "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 12,
-    "strict_matches": 4,
-    "sign_matches": 10,
-    "strict_pct": 33.3,
-    "sign_pct": 83.3,
+    "total_valid": 13,
+    "strict_matches": 5,
+    "sign_matches": 11,
+    "strict_pct": 38.5,
+    "sign_pct": 84.6,
     "by_bucket": {
       "very_bear": {
-        "n": 11,
-        "matches": 4,
-        "match_pct": 36.4,
-        "avg_btc_return": -0.268
+        "n": 12,
+        "matches": 5,
+        "match_pct": 41.7,
+        "avg_btc_return": -0.285
       },
       "bull": {
         "n": 1,
@@ -570,25 +635,26 @@
     }
   },
   "current_signal": {
-    "total": 122,
-    "buy_count": 36,
-    "sell_count": 86,
+    "total": 123,
+    "buy_count": 38,
+    "sell_count": 85,
     "hold_count": 0,
-    "ratio": 0.419,
+    "ratio": 0.447,
     "precision_distribution": {
       "0.75-0.80": 1,
-      "0.70-0.75": 5,
-      "0.60-0.70": 21,
-      "0.50-0.60": 36,
-      "0-0.50": 59
+      "0.70-0.75": 4,
+      "0.60-0.70": 16,
+      "0.50-0.60": 34,
+      "0-0.50": 66,
+      "0.80-0.85": 2
     },
     "count1_distribution": {
-      "5-9": 26,
-      ">=20": 70,
-      "10-19": 25,
-      "3-4": 1
+      "5-9": 13,
+      "10-19": 34,
+      ">=20": 72,
+      "3-4": 4
     },
-    "file_mtime": "2026-05-17T15:28:59.390943+00:00"
+    "file_mtime": "2026-05-17T16:05:29.999585+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -599,12 +665,12 @@
     "current_position": {
       "entry_ts": "2026-05-17T15:46:50.846386+00:00",
       "entry_price": 78014.4,
-      "current_btc_price": 78043.3,
+      "current_btc_price": 78082.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.444,
-      "unrealized_pnl_pct": -0.074,
-      "unrealized_pnl_usdt": -0.0741
+      "unrealized_pnl_pct": -0.175,
+      "unrealized_pnl_usdt": -0.1746
     },
     "trades_history": [
       {
