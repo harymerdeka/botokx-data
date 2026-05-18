@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-05-17T23:32:01.979161+00:00",
+  "generated_at": "2026-05-18T00:06:02.576981+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 532.5047,
     "positions_count": 2,
-    "last_cycle_at": "2026-05-17T20:03:10.953000+00:00",
-    "last_cycle_label_wib": "03:01",
+    "last_cycle_at": "2026-05-18T00:03:15.443000+00:00",
+    "last_cycle_label_wib": "07:01",
     "capital_snapshot_date": "2026-05-18"
   },
   "positions": [
     {
-      "symbol": "KITE-USDT",
+      "symbol": "W-USDT",
       "rule": "4H",
-      "entry_price": 0.21228,
-      "current_price": 0.21403,
-      "size": 1254.25,
-      "quote_spent": 266.25219,
+      "entry_price": 0.01229,
+      "current_price": 0.01243,
+      "size": 21664.1451,
+      "quote_spent": 266.25234327900006,
       "unrealized_pnl_pct": null,
       "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-18T06:59:00+07:00",
+      "exit_at": "2026-05-18T10:59:00+07:00",
       "atr_pct": 0.0,
-      "opened_at": "2026-05-17T20:03:12.050679+00:00",
+      "opened_at": "2026-05-18T00:03:17.321279+00:00",
       "is_filled": false,
       "order_state": "live"
     },
     {
-      "symbol": "SAHARA-USDT",
+      "symbol": "DORA-USDT",
       "rule": "4H",
-      "entry_price": 0.03609,
-      "current_price": 0.03692,
-      "size": 7316.6,
-      "quote_spent": 264.056094,
+      "entry_price": 0.006001,
+      "current_price": 0.006062,
+      "size": 44296.06,
+      "quote_spent": 265.82065606,
       "unrealized_pnl_pct": null,
       "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-18T06:59:00+07:00",
+      "exit_at": "2026-05-18T10:59:00+07:00",
       "atr_pct": 0.0,
-      "opened_at": "2026-05-17T20:03:12.380387+00:00",
+      "opened_at": "2026-05-18T00:03:17.694388+00:00",
       "is_filled": false,
       "order_state": "live"
     }
@@ -357,15 +357,77 @@
       "offset_pct": -1.0,
       "tp_pct": 4.0,
       "sl_pct": 2.0
+    },
+    {
+      "ts": "2026-05-18T00:03:16.270343+00:00",
+      "event": "sell",
+      "symbol": "KITE-USDT",
+      "rule": "4H",
+      "entry_price": 0.21228,
+      "exit_price": 0.2141761354877318,
+      "pnl_usdt": 2.165382262153514,
+      "pnl_pct": 0.8132824230116246,
+      "reason": "4h_exit_at_passed_signal_lost",
+      "opened_at": "2026-05-17T20:03:12.050679+00:00"
+    },
+    {
+      "ts": "2026-05-18T00:03:17.012983+00:00",
+      "event": "sell",
+      "symbol": "SAHARA-USDT",
+      "rule": "4H",
+      "entry_price": 0.03609,
+      "exit_price": 0.03613970344837,
+      "pnl_usdt": 0.15395167035006807,
+      "pnl_pct": 0.05830263866209733,
+      "reason": "4h_exit_at_passed_signal_lost",
+      "opened_at": "2026-05-17T20:03:12.380387+00:00"
+    },
+    {
+      "ts": "2026-05-18T00:03:17.322725+00:00",
+      "event": "buy",
+      "symbol": "W-USDT",
+      "rule": "4H",
+      "entry_price": 0.01229,
+      "size": 21664.1451,
+      "quote_spent": 266.25234327900006,
+      "precision": 0.769,
+      "count_str": "{0: 78, 1: 4}",
+      "confidence": 0.551,
+      "risk_level": "LOW",
+      "cycle_buy_at": "07:01",
+      "cur_price_at_order": 0.01241,
+      "limit_price": 0.012286,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
+    },
+    {
+      "ts": "2026-05-18T00:03:17.695986+00:00",
+      "event": "buy",
+      "symbol": "DORA-USDT",
+      "rule": "4H",
+      "entry_price": 0.006001,
+      "size": 44296.06,
+      "quote_spent": 265.82065606,
+      "precision": 0.722,
+      "count_str": "{0: 49, 1: 33}",
+      "confidence": 0.599,
+      "risk_level": "LOW",
+      "cycle_buy_at": "07:01",
+      "cur_price_at_order": 0.006062,
+      "limit_price": 0.006001,
+      "offset_pct": -1.0,
+      "tp_pct": 4.0,
+      "sl_pct": 2.0
     }
   ],
   "summary": {
-    "total_trades": 5,
-    "win_count": 2,
+    "total_trades": 7,
+    "win_count": 4,
     "loss_count": 3,
-    "net_pnl_usdt": -2.0345,
-    "win_rate_pct": 40.0,
-    "avg_win_pct": 1.356,
+    "net_pnl_usdt": 0.2848,
+    "win_rate_pct": 57.1,
+    "avg_win_pct": 0.896,
     "avg_loss_pct": -1.158
   },
   "cycle_history": [
@@ -760,10 +822,30 @@
       "predicted_dir": "down",
       "btc_window_utc": "2026-05-17 20:00 UTC",
       "btc_start": 78412.7,
-      "btc_end": 78394.2,
+      "btc_end": 77455.5,
       "btc_open": 78412.7,
-      "btc_close": 78394.2,
-      "btc_return_pct": -0.024,
+      "btc_close": 77455.5,
+      "btc_return_pct": -1.221,
+      "actual_dir": "down",
+      "direction_match": true,
+      "candle_state": "closed",
+      "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-18T00:03:15.445000+00:00",
+      "cycle_wib": "2026-05-18 07:03 WIB",
+      "rule": "4H",
+      "buy": 23,
+      "sell": 100,
+      "ratio": 0.23,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-18 00:00 UTC",
+      "btc_start": 77455.5,
+      "btc_end": 77315.1,
+      "btc_open": 77453.8,
+      "btc_close": 77315.1,
+      "btc_return_pct": -0.181,
       "actual_dir": "down",
       "direction_match": true,
       "candle_state": "open",
@@ -771,17 +853,17 @@
     }
   ],
   "breadth_stats": {
-    "total_valid": 14,
-    "strict_matches": 8,
-    "sign_matches": 8,
-    "strict_pct": 57.1,
-    "sign_pct": 57.1,
+    "total_valid": 15,
+    "strict_matches": 9,
+    "sign_matches": 9,
+    "strict_pct": 60.0,
+    "sign_pct": 60.0,
     "by_bucket": {
       "very_bear": {
-        "n": 13,
-        "matches": 8,
-        "match_pct": 61.5,
-        "avg_btc_return": -0.226
+        "n": 14,
+        "matches": 9,
+        "match_pct": 64.3,
+        "avg_btc_return": -0.297
       },
       "bull": {
         "n": 1,
@@ -792,26 +874,25 @@
     }
   },
   "current_signal": {
-    "total": 121,
-    "buy_count": 19,
-    "sell_count": 102,
+    "total": 128,
+    "buy_count": 23,
+    "sell_count": 105,
     "hold_count": 0,
-    "ratio": 0.186,
+    "ratio": 0.219,
     "precision_distribution": {
-      "0.80-0.85": 1,
       "0.75-0.80": 1,
-      "0.70-0.75": 2,
-      "0.60-0.70": 11,
-      "0.50-0.60": 39,
-      "0-0.50": 67
+      "0.70-0.75": 1,
+      "0.60-0.70": 20,
+      "0.50-0.60": 31,
+      "0-0.50": 75
     },
     "count1_distribution": {
-      "5-9": 15,
-      "3-4": 4,
-      ">=20": 76,
-      "10-19": 26
+      "3-4": 6,
+      ">=20": 74,
+      "10-19": 33,
+      "5-9": 15
     },
-    "file_mtime": "2026-05-17T20:03:10.849541+00:00"
+    "file_mtime": "2026-05-18T00:03:15.329815+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -820,14 +901,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-17T20:03:12.825490+00:00",
-      "entry_price": 78403.5,
-      "current_btc_price": 77781.5,
+      "entry_ts": "2026-05-18T00:03:18.128283+00:00",
+      "entry_price": 77321.9,
+      "current_btc_price": 77151.2,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.196,
-      "unrealized_pnl_pct": 1.587,
-      "unrealized_pnl_usdt": 1.5867
+      "ratio_at_entry": 0.23,
+      "unrealized_pnl_pct": 0.442,
+      "unrealized_pnl_usdt": 0.4415
     },
     "trades_history": [
       {
@@ -857,15 +938,29 @@
         "ratio_at_exit": 0.196,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-18T00:03:17.993256+00:00",
+        "open_ts": "2026-05-17T20:03:12.825490+00:00",
+        "entry_price": 78403.5,
+        "exit_price": 77321.7,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": 2.76,
+        "pnl_usdt": 2.7596,
+        "ratio_at_entry": 0.196,
+        "ratio_at_exit": 0.23,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 2,
-      "win_count": 1,
+      "total_closed": 3,
+      "win_count": 2,
       "loss_count": 1,
-      "win_rate_pct": 50.0,
-      "net_pnl_usdt": -0.4795,
-      "avg_pnl_pct": -0.24
+      "win_rate_pct": 66.7,
+      "net_pnl_usdt": 2.2801,
+      "avg_pnl_pct": 0.76
     }
   }
 }
