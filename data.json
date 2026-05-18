@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T00:32:02.065745+00:00",
+  "generated_at": "2026-05-18T01:32:02.385417+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 532.5047,
@@ -13,7 +13,7 @@
       "symbol": "W-USDT",
       "rule": "4H",
       "entry_price": 0.01229,
-      "current_price": 0.01251,
+      "current_price": 0.01245,
       "size": 21664.1451,
       "quote_spent": 266.25234327900006,
       "unrealized_pnl_pct": null,
@@ -28,11 +28,11 @@
       "symbol": "DORA-USDT",
       "rule": "4H",
       "entry_price": 0.006001,
-      "current_price": 0.006025,
+      "current_price": 0.005982,
       "size": 44296.06,
       "quote_spent": 265.82065606,
-      "unrealized_pnl_pct": 0.4,
-      "unrealized_pnl_usdt": 1.0631,
+      "unrealized_pnl_pct": -0.317,
+      "unrealized_pnl_usdt": -0.8416,
       "exit_at": "2026-05-18T10:59:00+07:00",
       "atr_pct": 0.0,
       "opened_at": "2026-05-18T00:03:17.694388+00:00",
@@ -903,12 +903,12 @@
     "current_position": {
       "entry_ts": "2026-05-18T00:03:18.128283+00:00",
       "entry_price": 77321.9,
-      "current_btc_price": 77181.6,
+      "current_btc_price": 76877.8,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.23,
-      "unrealized_pnl_pct": 0.363,
-      "unrealized_pnl_usdt": 0.3629
+      "unrealized_pnl_pct": 1.149,
+      "unrealized_pnl_usdt": 1.1487
     },
     "trades_history": [
       {
