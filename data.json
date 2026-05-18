@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T06:32:01.942595+00:00",
+  "generated_at": "2026-05-18T07:32:02.264579+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 532.5047,
@@ -13,11 +13,11 @@
       "symbol": "W-USDT",
       "rule": "4H",
       "entry_price": 0.01229,
-      "current_price": 0.01225,
+      "current_price": 0.01215,
       "size": 21664.1451,
       "quote_spent": 266.25234327900006,
-      "unrealized_pnl_pct": -0.325,
-      "unrealized_pnl_usdt": -0.8666,
+      "unrealized_pnl_pct": -1.139,
+      "unrealized_pnl_usdt": -3.033,
       "exit_at": "2026-05-18T14:59:00+07:00",
       "atr_pct": 0.0,
       "opened_at": "2026-05-18T00:03:17.321279+00:00",
@@ -923,12 +923,12 @@
     "current_position": {
       "entry_ts": "2026-05-18T04:03:15.277619+00:00",
       "entry_price": 76960.8,
-      "current_btc_price": 76711.6,
+      "current_btc_price": 77050.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.152,
-      "unrealized_pnl_pct": 0.648,
-      "unrealized_pnl_usdt": 0.6476
+      "unrealized_pnl_pct": -0.233,
+      "unrealized_pnl_usdt": -0.2331
     },
     "trades_history": [
       {
