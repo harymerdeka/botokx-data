@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T10:32:01.928701+00:00",
+  "generated_at": "2026-05-19T11:32:01.849839+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
@@ -13,7 +13,7 @@
       "symbol": "SENT-USDT",
       "rule": "4H",
       "entry_price": 0.01584,
-      "current_price": 0.01612,
+      "current_price": 0.01603,
       "size": 16672.2,
       "quote_spent": 264.087648,
       "unrealized_pnl_pct": null,
@@ -28,7 +28,7 @@
       "symbol": "FOGO-USDT",
       "rule": "4H",
       "entry_price": 0.01628,
-      "current_price": 0.01695,
+      "current_price": 0.01688,
       "size": 15797.4,
       "quote_spent": 257.181672,
       "unrealized_pnl_pct": null,
@@ -1229,12 +1229,12 @@
     "current_position": {
       "entry_ts": "2026-05-19T08:14:42.424291+00:00",
       "entry_price": 77117.3,
-      "current_btc_price": 76882.8,
+      "current_btc_price": 76874.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.276,
-      "unrealized_pnl_pct": 0.608,
-      "unrealized_pnl_usdt": 0.6082
+      "unrealized_pnl_pct": 0.631,
+      "unrealized_pnl_usdt": 0.631
     },
     "trades_history": [
       {
