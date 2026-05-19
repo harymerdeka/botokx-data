@@ -1,26 +1,41 @@
 {
-  "generated_at": "2026-05-19T08:06:03.052374+00:00",
+  "generated_at": "2026-05-19T08:32:01.760380+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
-    "positions_count": 1,
-    "last_cycle_at": "2026-05-19T04:03:17.313000+00:00",
-    "last_cycle_label_wib": "11:01",
+    "positions_count": 2,
+    "last_cycle_at": "2026-05-19T08:14:40.885000+00:00",
+    "last_cycle_label_wib": "15:01",
     "capital_snapshot_date": "2026-05-19"
   },
   "positions": [
     {
-      "symbol": "BNT-USDT",
+      "symbol": "SENT-USDT",
       "rule": "4H",
-      "entry_price": 0.3281,
-      "current_price": 0.3314,
-      "size": 798.725908,
-      "quote_spent": 262.0619704148,
+      "entry_price": 0.01584,
+      "current_price": 0.01624,
+      "size": 16672.2,
+      "quote_spent": 264.087648,
       "unrealized_pnl_pct": null,
       "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-19T14:59:00+07:00",
-      "atr_pct": 1.99,
-      "opened_at": "2026-05-19T04:03:18.376591+00:00",
+      "exit_at": "2026-05-19T18:59:00+07:00",
+      "atr_pct": 15.246,
+      "opened_at": "2026-05-19T08:14:41.602068+00:00",
+      "is_filled": false,
+      "order_state": "live"
+    },
+    {
+      "symbol": "FOGO-USDT",
+      "rule": "4H",
+      "entry_price": 0.01628,
+      "current_price": 0.01674,
+      "size": 15797.4,
+      "quote_spent": 257.181672,
+      "unrealized_pnl_pct": null,
+      "unrealized_pnl_usdt": null,
+      "exit_at": "2026-05-19T18:59:00+07:00",
+      "atr_pct": 9.289,
+      "opened_at": "2026-05-19T08:14:41.958570+00:00",
       "is_filled": false,
       "order_state": "live"
     }
@@ -515,6 +530,62 @@
       "pnl_pct": -1.7683894202534214,
       "reason": "mid_check_early_sl_1.5pct",
       "opened_at": "2026-05-19T04:03:18.050881+00:00"
+    },
+    {
+      "ts": "2026-05-19T08:14:41.234118+00:00",
+      "event": "sell",
+      "symbol": "BNT-USDT",
+      "rule": "4H",
+      "entry_price": 0.3281,
+      "exit_price": null,
+      "pnl_usdt": null,
+      "pnl_pct": null,
+      "reason": "tp_sl_filled",
+      "opened_at": "2026-05-19T04:03:18.376591+00:00"
+    },
+    {
+      "ts": "2026-05-19T08:14:41.603214+00:00",
+      "event": "buy",
+      "symbol": "SENT-USDT",
+      "rule": "4H",
+      "entry_price": 0.01584,
+      "size": 16672.2,
+      "quote_spent": 264.087648,
+      "precision": 0.812,
+      "count_str": {
+        "0": 92,
+        "1": 58
+      },
+      "confidence": 0.722,
+      "risk_level": "LOW",
+      "cycle_buy_at": "15:01",
+      "cur_price_at_order": 0.01616,
+      "limit_price": 0.015837,
+      "offset_pct": -2.0,
+      "tp_pct": 8.0,
+      "sl_pct": 4.0
+    },
+    {
+      "ts": "2026-05-19T08:14:41.959460+00:00",
+      "event": "buy",
+      "symbol": "FOGO-USDT",
+      "rule": "4H",
+      "entry_price": 0.01628,
+      "size": 15797.4,
+      "quote_spent": 257.181672,
+      "precision": 0.789,
+      "count_str": {
+        "0": 86,
+        "1": 84
+      },
+      "confidence": 0.712,
+      "risk_level": "LOW",
+      "cycle_buy_at": "15:01",
+      "cur_price_at_order": 0.01661,
+      "limit_price": 0.016278,
+      "offset_pct": -2.0,
+      "tp_pct": 8.0,
+      "sl_pct": 4.0
     }
   ],
   "summary": {
@@ -1130,25 +1201,24 @@
     }
   },
   "current_signal": {
-    "total": 134,
-    "buy_count": 19,
-    "sell_count": 115,
+    "total": 237,
+    "buy_count": 50,
+    "sell_count": 187,
     "hold_count": 0,
-    "ratio": 0.165,
+    "ratio": 0.267,
     "precision_distribution": {
-      "0.70-0.75": 2,
-      "0.60-0.70": 11,
-      "0.50-0.60": 41,
-      "0-0.50": 79,
-      "0.75-0.80": 1
+      "0.80-0.85": 2,
+      "0.75-0.80": 17,
+      "0.70-0.75": 125,
+      "0.60-0.70": 89,
+      "0.50-0.60": 3,
+      "0-0.50": 1
     },
     "count1_distribution": {
-      "5-9": 14,
-      ">=20": 89,
-      "3-4": 3,
-      "10-19": 28
+      ">=20": 236,
+      "3-4": 1
     },
-    "file_mtime": "2026-05-19T04:03:17.215390+00:00"
+    "file_mtime": "2026-05-19T08:14:40.786967+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1157,14 +1227,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-19T04:03:18.847709+00:00",
-      "entry_price": 76740.5,
-      "current_btc_price": 77152.1,
+      "entry_ts": "2026-05-19T08:14:42.424291+00:00",
+      "entry_price": 77117.3,
+      "current_btc_price": 77038.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.171,
-      "unrealized_pnl_pct": -1.073,
-      "unrealized_pnl_usdt": -1.0727
+      "ratio_at_entry": 0.276,
+      "unrealized_pnl_pct": 0.206,
+      "unrealized_pnl_usdt": 0.2057
     },
     "trades_history": [
       {
@@ -1292,15 +1362,29 @@
         "ratio_at_exit": 0.171,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-19T08:14:42.269172+00:00",
+        "open_ts": "2026-05-19T04:03:18.847709+00:00",
+        "entry_price": 76740.5,
+        "exit_price": 77117.3,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": -0.982,
+        "pnl_usdt": -0.982,
+        "ratio_at_entry": 0.171,
+        "ratio_at_exit": 0.276,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 9,
+      "total_closed": 10,
       "win_count": 5,
-      "loss_count": 4,
-      "win_rate_pct": 55.6,
-      "net_pnl_usdt": 3.7814,
-      "avg_pnl_pct": 0.42
+      "loss_count": 5,
+      "win_rate_pct": 50.0,
+      "net_pnl_usdt": 2.7994,
+      "avg_pnl_pct": 0.28
     }
   }
 }
