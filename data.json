@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T02:32:02.354898+00:00",
+  "generated_at": "2026-05-19T03:32:02.024418+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
@@ -13,7 +13,7 @@
       "symbol": "CFX-USDT",
       "rule": "4H",
       "entry_price": 0.0569,
-      "current_price": 0.05915,
+      "current_price": 0.05917,
       "size": 9200.519041,
       "quote_spent": 523.5095334329,
       "unrealized_pnl_pct": null,
@@ -1042,24 +1042,25 @@
     }
   },
   "current_signal": {
-    "total": 128,
-    "buy_count": 16,
-    "sell_count": 112,
+    "total": 125,
+    "buy_count": 10,
+    "sell_count": 115,
     "hold_count": 0,
-    "ratio": 0.143,
+    "ratio": 0.087,
     "precision_distribution": {
-      "0.60-0.70": 6,
-      "0.50-0.60": 42,
-      "0-0.50": 79,
-      "0.75-0.80": 1
+      "0.60-0.70": 10,
+      "0.50-0.60": 46,
+      "0-0.50": 67,
+      "0.80-0.85": 1,
+      "0.70-0.75": 1
     },
     "count1_distribution": {
-      "5-9": 16,
-      ">=20": 79,
-      "10-19": 31,
-      "3-4": 2
+      ">=20": 83,
+      "10-19": 26,
+      "3-4": 6,
+      "5-9": 10
     },
-    "file_mtime": "2026-05-18T16:05:25.174976+00:00"
+    "file_mtime": "2026-05-19T03:14:15.285489+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1070,12 +1071,12 @@
     "current_position": {
       "entry_ts": "2026-05-19T00:03:12.418575+00:00",
       "entry_price": 76981.4,
-      "current_btc_price": 76792.0,
+      "current_btc_price": 76778.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.15,
-      "unrealized_pnl_pct": 0.492,
-      "unrealized_pnl_usdt": 0.4921
+      "unrealized_pnl_pct": 0.527,
+      "unrealized_pnl_usdt": 0.5271
     },
     "trades_history": [
       {
