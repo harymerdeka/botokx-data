@@ -1,45 +1,14 @@
 {
-  "generated_at": "2026-05-19T11:32:01.849839+00:00",
+  "generated_at": "2026-05-19T12:06:02.116985+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
-    "positions_count": 2,
-    "last_cycle_at": "2026-05-19T08:14:40.885000+00:00",
-    "last_cycle_label_wib": "15:01",
+    "positions_count": 0,
+    "last_cycle_at": "2026-05-19T12:05:11.649000+00:00",
+    "last_cycle_label_wib": "19:01",
     "capital_snapshot_date": "2026-05-19"
   },
-  "positions": [
-    {
-      "symbol": "SENT-USDT",
-      "rule": "4H",
-      "entry_price": 0.01584,
-      "current_price": 0.01603,
-      "size": 16672.2,
-      "quote_spent": 264.087648,
-      "unrealized_pnl_pct": null,
-      "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-19T18:59:00+07:00",
-      "atr_pct": 15.246,
-      "opened_at": "2026-05-19T08:14:41.602068+00:00",
-      "is_filled": false,
-      "order_state": "live"
-    },
-    {
-      "symbol": "FOGO-USDT",
-      "rule": "4H",
-      "entry_price": 0.01628,
-      "current_price": 0.01688,
-      "size": 15797.4,
-      "quote_spent": 257.181672,
-      "unrealized_pnl_pct": null,
-      "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-19T18:59:00+07:00",
-      "atr_pct": 9.289,
-      "opened_at": "2026-05-19T08:14:41.958570+00:00",
-      "is_filled": false,
-      "order_state": "live"
-    }
-  ],
+  "positions": [],
   "trades_history": [
     {
       "ts": "2026-05-15T04:02:59.600474+00:00",
@@ -586,6 +555,30 @@
       "offset_pct": -2.0,
       "tp_pct": 8.0,
       "sl_pct": 4.0
+    },
+    {
+      "ts": "2026-05-19T12:05:12.057429+00:00",
+      "event": "sell",
+      "symbol": "SENT-USDT",
+      "rule": "4H",
+      "entry_price": 0.01584,
+      "exit_price": null,
+      "pnl_usdt": null,
+      "pnl_pct": null,
+      "reason": "dust_below_min_sz",
+      "opened_at": "2026-05-19T08:14:41.602068+00:00"
+    },
+    {
+      "ts": "2026-05-19T12:05:12.336742+00:00",
+      "event": "sell",
+      "symbol": "FOGO-USDT",
+      "rule": "4H",
+      "entry_price": 0.01628,
+      "exit_price": null,
+      "pnl_usdt": null,
+      "pnl_pct": null,
+      "reason": "tp_sl_filled",
+      "opened_at": "2026-05-19T08:14:41.958570+00:00"
     }
   ],
   "summary": {
@@ -1177,20 +1170,40 @@
       "direction_match": false,
       "candle_state": "closed",
       "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-19T08:14:40.887000+00:00",
+      "cycle_wib": "2026-05-19 15:14 WIB",
+      "rule": "4H",
+      "buy": 50,
+      "sell": 181,
+      "ratio": 0.276,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-19 08:00 UTC",
+      "btc_start": 77225.0,
+      "btc_end": 76713.4,
+      "btc_open": 77225.1,
+      "btc_close": 76713.4,
+      "btc_return_pct": -0.662,
+      "actual_dir": "down",
+      "direction_match": true,
+      "candle_state": "closed",
+      "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 23,
-    "strict_matches": 12,
-    "sign_matches": 12,
-    "strict_pct": 52.2,
-    "sign_pct": 52.2,
+    "total_valid": 24,
+    "strict_matches": 13,
+    "sign_matches": 13,
+    "strict_pct": 54.2,
+    "sign_pct": 54.2,
     "by_bucket": {
       "very_bear": {
-        "n": 22,
-        "matches": 12,
-        "match_pct": 54.5,
-        "avg_btc_return": -0.202
+        "n": 23,
+        "matches": 13,
+        "match_pct": 56.5,
+        "avg_btc_return": -0.222
       },
       "bull": {
         "n": 1,
@@ -1201,24 +1214,23 @@
     }
   },
   "current_signal": {
-    "total": 237,
-    "buy_count": 50,
-    "sell_count": 187,
+    "total": 125,
+    "buy_count": 12,
+    "sell_count": 113,
     "hold_count": 0,
-    "ratio": 0.267,
+    "ratio": 0.106,
     "precision_distribution": {
-      "0.80-0.85": 2,
-      "0.75-0.80": 17,
-      "0.70-0.75": 125,
-      "0.60-0.70": 89,
-      "0.50-0.60": 3,
-      "0-0.50": 1
+      "0.50-0.60": 32,
+      "0-0.50": 91,
+      "0.60-0.70": 2
     },
     "count1_distribution": {
-      ">=20": 236,
-      "3-4": 1
+      ">=20": 112,
+      "10-19": 9,
+      "3-4": 1,
+      "5-9": 3
     },
-    "file_mtime": "2026-05-19T08:14:40.786967+00:00"
+    "file_mtime": "2026-05-19T12:05:11.535197+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1227,14 +1239,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-19T08:14:42.424291+00:00",
-      "entry_price": 77117.3,
-      "current_btc_price": 76874.0,
+      "entry_ts": "2026-05-19T12:05:12.760259+00:00",
+      "entry_price": 76749.1,
+      "current_btc_price": 76734.3,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.276,
-      "unrealized_pnl_pct": 0.631,
-      "unrealized_pnl_usdt": 0.631
+      "ratio_at_entry": 0.111,
+      "unrealized_pnl_pct": 0.039,
+      "unrealized_pnl_usdt": 0.0386
     },
     "trades_history": [
       {
@@ -1376,15 +1388,29 @@
         "ratio_at_exit": 0.276,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-19T12:05:12.618781+00:00",
+        "open_ts": "2026-05-19T08:14:42.424291+00:00",
+        "entry_price": 77117.3,
+        "exit_price": 76749.0,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": 0.955,
+        "pnl_usdt": 0.9552,
+        "ratio_at_entry": 0.276,
+        "ratio_at_exit": 0.111,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 10,
-      "win_count": 5,
+      "total_closed": 11,
+      "win_count": 6,
       "loss_count": 5,
-      "win_rate_pct": 50.0,
-      "net_pnl_usdt": 2.7994,
-      "avg_pnl_pct": 0.28
+      "win_rate_pct": 54.5,
+      "net_pnl_usdt": 3.7546,
+      "avg_pnl_pct": 0.341
     }
   }
 }
