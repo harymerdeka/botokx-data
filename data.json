@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T01:32:02.393995+00:00",
+  "generated_at": "2026-05-19T02:32:02.354898+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
@@ -13,7 +13,7 @@
       "symbol": "CFX-USDT",
       "rule": "4H",
       "entry_price": 0.0569,
-      "current_price": 0.05858,
+      "current_price": 0.05915,
       "size": 9200.519041,
       "quote_spent": 523.5095334329,
       "unrealized_pnl_pct": null,
@@ -1070,12 +1070,12 @@
     "current_position": {
       "entry_ts": "2026-05-19T00:03:12.418575+00:00",
       "entry_price": 76981.4,
-      "current_btc_price": 76749.6,
+      "current_btc_price": 76792.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.15,
-      "unrealized_pnl_pct": 0.602,
-      "unrealized_pnl_usdt": 0.6022
+      "unrealized_pnl_pct": 0.492,
+      "unrealized_pnl_usdt": 0.4921
     },
     "trades_history": [
       {
