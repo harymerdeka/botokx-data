@@ -1,29 +1,14 @@
 {
-  "generated_at": "2026-05-19T05:32:02.326731+00:00",
+  "generated_at": "2026-05-19T06:32:02.006935+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
-    "positions_count": 2,
+    "positions_count": 1,
     "last_cycle_at": "2026-05-19T04:03:17.313000+00:00",
     "last_cycle_label_wib": "11:01",
     "capital_snapshot_date": "2026-05-19"
   },
   "positions": [
-    {
-      "symbol": "INJ-USDT",
-      "rule": "4H",
-      "entry_price": 5.106,
-      "current_price": 5.084,
-      "size": 51.7212,
-      "quote_spent": 264.0884472,
-      "unrealized_pnl_pct": -0.431,
-      "unrealized_pnl_usdt": -1.1379,
-      "exit_at": "2026-05-19T14:59:00+07:00",
-      "atr_pct": 3.819,
-      "opened_at": "2026-05-19T04:03:18.050881+00:00",
-      "is_filled": true,
-      "order_state": "filled"
-    },
     {
       "symbol": "BNT-USDT",
       "rule": "4H",
@@ -518,16 +503,28 @@
       "offset_pct": -1.2,
       "tp_pct": 5.97,
       "sl_pct": 2.98
+    },
+    {
+      "ts": "2026-05-19T06:31:01.157789+00:00",
+      "event": "sell",
+      "symbol": "INJ-USDT",
+      "rule": "4H",
+      "entry_price": 5.106,
+      "exit_price": 5.019717452466921,
+      "pnl_usdt": -4.670112160396343,
+      "pnl_pct": -1.7683894202534214,
+      "reason": "mid_check_early_sl_1.5pct",
+      "opened_at": "2026-05-19T04:03:18.050881+00:00"
     }
   ],
   "summary": {
-    "total_trades": 9,
+    "total_trades": 10,
     "win_count": 4,
-    "loss_count": 5,
-    "net_pnl_usdt": -5.149,
-    "win_rate_pct": 44.4,
+    "loss_count": 6,
+    "net_pnl_usdt": -9.8192,
+    "win_rate_pct": 40.0,
     "avg_win_pct": 0.896,
-    "avg_loss_pct": -1.104
+    "avg_loss_pct": -1.214
   },
   "cycle_history": [
     {
@@ -1162,12 +1159,12 @@
     "current_position": {
       "entry_ts": "2026-05-19T04:03:18.847709+00:00",
       "entry_price": 76740.5,
-      "current_btc_price": 76815.1,
+      "current_btc_price": 77055.1,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.171,
-      "unrealized_pnl_pct": -0.194,
-      "unrealized_pnl_usdt": -0.1944
+      "unrealized_pnl_pct": -0.82,
+      "unrealized_pnl_usdt": -0.8199
     },
     "trades_history": [
       {
