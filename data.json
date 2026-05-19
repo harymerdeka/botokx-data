@@ -1,26 +1,41 @@
 {
-  "generated_at": "2026-05-19T03:32:02.024418+00:00",
+  "generated_at": "2026-05-19T04:06:02.629395+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
-    "positions_count": 1,
-    "last_cycle_at": "2026-05-19T00:03:12.062000+00:00",
-    "last_cycle_label_wib": "07:01",
+    "positions_count": 2,
+    "last_cycle_at": "2026-05-19T04:03:17.313000+00:00",
+    "last_cycle_label_wib": "11:01",
     "capital_snapshot_date": "2026-05-19"
   },
   "positions": [
     {
-      "symbol": "CFX-USDT",
+      "symbol": "INJ-USDT",
       "rule": "4H",
-      "entry_price": 0.0569,
-      "current_price": 0.05917,
-      "size": 9200.519041,
-      "quote_spent": 523.5095334329,
+      "entry_price": 5.106,
+      "current_price": 5.244,
+      "size": 51.7212,
+      "quote_spent": 264.0884472,
       "unrealized_pnl_pct": null,
       "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-19T10:59:00+07:00",
-      "atr_pct": 0.0,
-      "opened_at": "2026-05-18T20:03:15.649164+00:00",
+      "exit_at": "2026-05-19T14:59:00+07:00",
+      "atr_pct": 3.819,
+      "opened_at": "2026-05-19T04:03:18.050881+00:00",
+      "is_filled": false,
+      "order_state": "live"
+    },
+    {
+      "symbol": "BNT-USDT",
+      "rule": "4H",
+      "entry_price": 0.3281,
+      "current_price": 0.3321,
+      "size": 798.725908,
+      "quote_spent": 262.0619704148,
+      "unrealized_pnl_pct": null,
+      "unrealized_pnl_usdt": null,
+      "exit_at": "2026-05-19T14:59:00+07:00",
+      "atr_pct": 1.99,
+      "opened_at": "2026-05-19T04:03:18.376591+00:00",
       "is_filled": false,
       "order_state": "live"
     }
@@ -447,6 +462,62 @@
       "offset_pct": -1.0,
       "tp_pct": 4.0,
       "sl_pct": 2.0
+    },
+    {
+      "ts": "2026-05-19T04:03:17.720736+00:00",
+      "event": "sell",
+      "symbol": "CFX-USDT",
+      "rule": "4H",
+      "entry_price": 0.0569,
+      "exit_price": null,
+      "pnl_usdt": null,
+      "pnl_pct": null,
+      "reason": "dust_below_min_sz",
+      "opened_at": "2026-05-18T20:03:15.649164+00:00"
+    },
+    {
+      "ts": "2026-05-19T04:03:18.052030+00:00",
+      "event": "buy",
+      "symbol": "INJ-USDT",
+      "rule": "4H",
+      "entry_price": 5.106,
+      "size": 51.7212,
+      "quote_spent": 264.0884472,
+      "precision": 0.733,
+      "count_str": {
+        "0": 74,
+        "1": 8
+      },
+      "confidence": 0.552,
+      "risk_level": "HIGH",
+      "cycle_buy_at": "11:01",
+      "cur_price_at_order": 5.21,
+      "limit_price": 5.1058,
+      "offset_pct": -2.0,
+      "tp_pct": 8.0,
+      "sl_pct": 4.0
+    },
+    {
+      "ts": "2026-05-19T04:03:18.377501+00:00",
+      "event": "buy",
+      "symbol": "BNT-USDT",
+      "rule": "4H",
+      "entry_price": 0.3281,
+      "size": 798.725908,
+      "quote_spent": 262.0619704148,
+      "precision": 0.689,
+      "count_str": {
+        "0": 57,
+        "1": 25
+      },
+      "confidence": 0.561,
+      "risk_level": "LOW",
+      "cycle_buy_at": "11:01",
+      "cur_price_at_order": 0.3321,
+      "limit_price": 0.32813,
+      "offset_pct": -1.2,
+      "tp_pct": 5.97,
+      "sl_pct": 2.98
     }
   ],
   "summary": {
@@ -1010,28 +1081,48 @@
       "predicted_dir": "down",
       "btc_window_utc": "2026-05-19 00:00 UTC",
       "btc_start": 77007.5,
-      "btc_end": 76982.3,
+      "btc_end": 76788.3,
       "btc_open": 77007.5,
-      "btc_close": 76982.3,
-      "btc_return_pct": -0.033,
+      "btc_close": 76788.3,
+      "btc_return_pct": -0.285,
       "actual_dir": "down",
       "direction_match": true,
+      "candle_state": "closed",
+      "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-19T04:03:17.315000+00:00",
+      "cycle_wib": "2026-05-19 11:03 WIB",
+      "rule": "4H",
+      "buy": 19,
+      "sell": 111,
+      "ratio": 0.171,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-19 04:00 UTC",
+      "btc_start": 76788.3,
+      "btc_end": 76810.1,
+      "btc_open": 76788.3,
+      "btc_close": 76810.1,
+      "btc_return_pct": 0.028,
+      "actual_dir": "up",
+      "direction_match": false,
       "candle_state": "open",
       "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 21,
-    "strict_matches": 11,
-    "sign_matches": 11,
-    "strict_pct": 52.4,
-    "sign_pct": 52.4,
+    "total_valid": 22,
+    "strict_matches": 12,
+    "sign_matches": 12,
+    "strict_pct": 54.5,
+    "sign_pct": 54.5,
     "by_bucket": {
       "very_bear": {
-        "n": 20,
-        "matches": 11,
-        "match_pct": 55.0,
-        "avg_btc_return": -0.237
+        "n": 21,
+        "matches": 12,
+        "match_pct": 57.1,
+        "avg_btc_return": -0.239
       },
       "bull": {
         "n": 1,
@@ -1042,25 +1133,25 @@
     }
   },
   "current_signal": {
-    "total": 125,
-    "buy_count": 10,
+    "total": 134,
+    "buy_count": 19,
     "sell_count": 115,
     "hold_count": 0,
-    "ratio": 0.087,
+    "ratio": 0.165,
     "precision_distribution": {
-      "0.60-0.70": 10,
-      "0.50-0.60": 46,
-      "0-0.50": 67,
-      "0.80-0.85": 1,
-      "0.70-0.75": 1
+      "0.70-0.75": 2,
+      "0.60-0.70": 11,
+      "0.50-0.60": 41,
+      "0-0.50": 79,
+      "0.75-0.80": 1
     },
     "count1_distribution": {
-      ">=20": 83,
-      "10-19": 26,
-      "3-4": 6,
-      "5-9": 10
+      "5-9": 14,
+      ">=20": 89,
+      "3-4": 3,
+      "10-19": 28
     },
-    "file_mtime": "2026-05-19T03:14:15.285489+00:00"
+    "file_mtime": "2026-05-19T04:03:17.215390+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1069,14 +1160,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-19T00:03:12.418575+00:00",
-      "entry_price": 76981.4,
-      "current_btc_price": 76778.5,
+      "entry_ts": "2026-05-19T04:03:18.847709+00:00",
+      "entry_price": 76740.5,
+      "current_btc_price": 76824.3,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.15,
-      "unrealized_pnl_pct": 0.527,
-      "unrealized_pnl_usdt": 0.5271
+      "ratio_at_entry": 0.171,
+      "unrealized_pnl_pct": -0.218,
+      "unrealized_pnl_usdt": -0.2184
     },
     "trades_history": [
       {
@@ -1190,15 +1281,29 @@
         "ratio_at_exit": 0.15,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-19T04:03:18.710744+00:00",
+        "open_ts": "2026-05-19T00:03:12.418575+00:00",
+        "entry_price": 76981.4,
+        "exit_price": 76740.5,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": 0.626,
+        "pnl_usdt": 0.6259,
+        "ratio_at_entry": 0.15,
+        "ratio_at_exit": 0.171,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 8,
-      "win_count": 4,
+      "total_closed": 9,
+      "win_count": 5,
       "loss_count": 4,
-      "win_rate_pct": 50.0,
-      "net_pnl_usdt": 3.1555,
-      "avg_pnl_pct": 0.394
+      "win_rate_pct": 55.6,
+      "net_pnl_usdt": 3.7814,
+      "avg_pnl_pct": 0.42
     }
   }
 }
