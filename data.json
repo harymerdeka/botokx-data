@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T06:32:02.006935+00:00",
+  "generated_at": "2026-05-19T07:32:01.922090+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
@@ -13,7 +13,7 @@
       "symbol": "BNT-USDT",
       "rule": "4H",
       "entry_price": 0.3281,
-      "current_price": 0.3312,
+      "current_price": 0.336,
       "size": 798.725908,
       "quote_spent": 262.0619704148,
       "unrealized_pnl_pct": null,
@@ -1159,12 +1159,12 @@
     "current_position": {
       "entry_ts": "2026-05-19T04:03:18.847709+00:00",
       "entry_price": 76740.5,
-      "current_btc_price": 77055.1,
+      "current_btc_price": 77155.8,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.171,
-      "unrealized_pnl_pct": -0.82,
-      "unrealized_pnl_usdt": -0.8199
+      "unrealized_pnl_pct": -1.082,
+      "unrealized_pnl_usdt": -1.0823
     },
     "trades_history": [
       {
