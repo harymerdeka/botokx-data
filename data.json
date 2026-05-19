@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T04:06:02.629395+00:00",
+  "generated_at": "2026-05-19T04:32:01.725636+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 528.1776,
@@ -13,7 +13,7 @@
       "symbol": "INJ-USDT",
       "rule": "4H",
       "entry_price": 5.106,
-      "current_price": 5.244,
+      "current_price": 5.128,
       "size": 51.7212,
       "quote_spent": 264.0884472,
       "unrealized_pnl_pct": null,
@@ -28,7 +28,7 @@
       "symbol": "BNT-USDT",
       "rule": "4H",
       "entry_price": 0.3281,
-      "current_price": 0.3321,
+      "current_price": 0.3324,
       "size": 798.725908,
       "quote_spent": 262.0619704148,
       "unrealized_pnl_pct": null,
@@ -1162,12 +1162,12 @@
     "current_position": {
       "entry_ts": "2026-05-19T04:03:18.847709+00:00",
       "entry_price": 76740.5,
-      "current_btc_price": 76824.3,
+      "current_btc_price": 76795.3,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.171,
-      "unrealized_pnl_pct": -0.218,
-      "unrealized_pnl_usdt": -0.2184
+      "unrealized_pnl_pct": -0.143,
+      "unrealized_pnl_usdt": -0.1428
     },
     "trades_history": [
       {
