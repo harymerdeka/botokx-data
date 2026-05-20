@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-20T16:06:02.532071+00:00",
+  "generated_at": "2026-05-20T16:32:02.371229+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.2248,
     "positions_count": 0,
-    "last_cycle_at": "2026-05-20T12:05:03.323000+00:00",
-    "last_cycle_label_wib": "19:01",
+    "last_cycle_at": "2026-05-20T16:13:02.896000+00:00",
+    "last_cycle_label_wib": "23:01",
     "capital_snapshot_date": "2026-05-20"
   },
   "positions": [],
@@ -1374,22 +1374,22 @@
     }
   },
   "current_signal": {
-    "total": 122,
-    "buy_count": 3,
-    "sell_count": 119,
+    "total": 125,
+    "buy_count": 5,
+    "sell_count": 120,
     "hold_count": 0,
-    "ratio": 0.025,
+    "ratio": 0.042,
     "precision_distribution": {
-      "0.50-0.60": 27,
-      "0-0.50": 95
+      "0-0.50": 102,
+      "0.60-0.70": 1,
+      "0.50-0.60": 22
     },
     "count1_distribution": {
-      ">=20": 101,
-      "10-19": 15,
-      "5-9": 3,
-      "3-4": 3
+      ">=20": 109,
+      "10-19": 12,
+      "5-9": 4
     },
-    "file_mtime": "2026-05-20T12:05:03.210833+00:00"
+    "file_mtime": "2026-05-20T16:13:02.776352+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1400,12 +1400,12 @@
     "current_position": {
       "entry_ts": "2026-05-20T12:05:03.655093+00:00",
       "entry_price": 77460.5,
-      "current_btc_price": 77470.1,
+      "current_btc_price": 77099.1,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.026,
-      "unrealized_pnl_pct": -0.025,
-      "unrealized_pnl_usdt": -0.0248
+      "unrealized_pnl_pct": 0.933,
+      "unrealized_pnl_usdt": 0.9331
     },
     "trades_history": [
       {
