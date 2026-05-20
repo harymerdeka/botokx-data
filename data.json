@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T23:32:01.521023+00:00",
+  "generated_at": "2026-05-20T00:06:01.839029+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.2248,
     "positions_count": 0,
-    "last_cycle_at": "2026-05-19T20:05:02.159000+00:00",
-    "last_cycle_label_wib": "03:01",
+    "last_cycle_at": "2026-05-20T00:05:01.303000+00:00",
+    "last_cycle_label_wib": "07:01",
     "capital_snapshot_date": "2026-05-20"
   },
   "positions": [],
@@ -1250,20 +1250,60 @@
       "direction_match": false,
       "candle_state": "closed",
       "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-19T20:05:02.264000+00:00",
+      "cycle_wib": "2026-05-20 03:05 WIB",
+      "rule": "4H",
+      "buy": 10,
+      "sell": 110,
+      "ratio": 0.091,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-19 20:00 UTC",
+      "btc_start": 76820.8,
+      "btc_end": 76838.0,
+      "btc_open": 76820.8,
+      "btc_close": 76838.0,
+      "btc_return_pct": 0.022,
+      "actual_dir": "up",
+      "direction_match": false,
+      "candle_state": "closed",
+      "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-20T00:05:01.306000+00:00",
+      "cycle_wib": "2026-05-20 07:05 WIB",
+      "rule": "4H",
+      "buy": 12,
+      "sell": 119,
+      "ratio": 0.101,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-20 00:00 UTC",
+      "btc_start": 76838.0,
+      "btc_end": 76855.7,
+      "btc_open": 76838.0,
+      "btc_close": 76855.7,
+      "btc_return_pct": 0.023,
+      "actual_dir": "up",
+      "direction_match": false,
+      "candle_state": "open",
+      "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 26,
+    "total_valid": 27,
     "strict_matches": 14,
     "sign_matches": 14,
-    "strict_pct": 53.8,
-    "sign_pct": 53.8,
+    "strict_pct": 51.9,
+    "sign_pct": 51.9,
     "by_bucket": {
       "very_bear": {
-        "n": 25,
+        "n": 26,
         "matches": 14,
-        "match_pct": 56.0,
-        "avg_btc_return": -0.199
+        "match_pct": 53.8,
+        "avg_btc_return": -0.19
       },
       "bull": {
         "n": 1,
@@ -1274,23 +1314,23 @@
     }
   },
   "current_signal": {
-    "total": 125,
-    "buy_count": 10,
-    "sell_count": 115,
+    "total": 136,
+    "buy_count": 12,
+    "sell_count": 124,
     "hold_count": 0,
-    "ratio": 0.087,
+    "ratio": 0.097,
     "precision_distribution": {
-      "0.50-0.60": 25,
-      "0-0.50": 98,
+      "0.50-0.60": 27,
+      "0-0.50": 107,
       "0.60-0.70": 2
     },
     "count1_distribution": {
-      ">=20": 107,
-      "5-9": 5,
-      "10-19": 12,
-      "3-4": 1
+      ">=20": 114,
+      "5-9": 6,
+      "10-19": 14,
+      "3-4": 2
     },
-    "file_mtime": "2026-05-19T20:05:02.036245+00:00"
+    "file_mtime": "2026-05-20T00:05:01.180775+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1299,14 +1339,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-19T20:05:02.713199+00:00",
-      "entry_price": 76836.5,
-      "current_btc_price": 76909.2,
+      "entry_ts": "2026-05-20T00:05:01.722120+00:00",
+      "entry_price": 76861.3,
+      "current_btc_price": 76795.2,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.091,
-      "unrealized_pnl_pct": -0.189,
-      "unrealized_pnl_usdt": -0.1892
+      "ratio_at_entry": 0.101,
+      "unrealized_pnl_pct": 0.172,
+      "unrealized_pnl_usdt": 0.172
     },
     "trades_history": [
       {
@@ -1476,15 +1516,29 @@
         "ratio_at_exit": 0.091,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-20T00:05:01.590013+00:00",
+        "open_ts": "2026-05-19T20:05:02.713199+00:00",
+        "entry_price": 76836.5,
+        "exit_price": 76861.2,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": -0.064,
+        "pnl_usdt": -0.0643,
+        "ratio_at_entry": 0.091,
+        "ratio_at_exit": 0.101,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 12,
+      "total_closed": 13,
       "win_count": 6,
-      "loss_count": 6,
-      "win_rate_pct": 50.0,
-      "net_pnl_usdt": 3.5268,
-      "avg_pnl_pct": 0.294
+      "loss_count": 7,
+      "win_rate_pct": 46.2,
+      "net_pnl_usdt": 3.4625,
+      "avg_pnl_pct": 0.266
     }
   }
 }
