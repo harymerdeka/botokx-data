@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-21T08:06:02.116266+00:00",
+  "generated_at": "2026-05-21T08:32:01.728931+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.1789,
     "positions_count": 0,
-    "last_cycle_at": "2026-05-21T04:12:48.256000+00:00",
-    "last_cycle_label_wib": "11:01",
+    "last_cycle_at": "2026-05-21T08:14:00.672000+00:00",
+    "last_cycle_label_wib": "15:01",
     "capital_snapshot_date": "2026-05-21"
   },
   "positions": [],
@@ -1474,96 +1474,95 @@
     }
   },
   "current_signal": {
-    "total": 116,
-    "buy_count": 10,
-    "sell_count": 106,
+    "total": 262,
+    "buy_count": 30,
+    "sell_count": 232,
     "hold_count": 0,
-    "ratio": 0.094,
+    "ratio": 0.129,
     "precision_distribution": {
-      "0.50-0.60": 7,
-      "0-0.50": 108,
+      "0.50-0.60": 12,
+      "0-0.50": 249,
       "0.60-0.70": 1
     },
     "count1_distribution": {
-      ">=20": 113,
-      "10-19": 2,
-      "5-9": 1
+      ">=20": 260,
+      "5-9": 2
     },
     "top_buy": [
       {
         "symbol": "ROBO-USDT",
-        "precision": 0.506,
-        "confidence": 0.616,
-        "score": 0.506,
-        "count1": 55
+        "precision": 0.527,
+        "confidence": 0.577,
+        "score": 0.527,
+        "count1": 58
+      },
+      {
+        "symbol": "CITY-USDT",
+        "precision": 0.512,
+        "confidence": 0.569,
+        "score": 0.512,
+        "count1": 153
       },
       {
         "symbol": "SUSHI-USDT",
-        "precision": 0.501,
-        "confidence": 0.557,
-        "score": 0.501,
-        "count1": 147
+        "precision": 0.5,
+        "confidence": 0.576,
+        "score": 0.5,
+        "count1": 168
       },
       {
-        "symbol": "LQTY-USDT",
-        "precision": 0.484,
-        "confidence": 0.632,
-        "score": 0.484,
-        "count1": 212
+        "symbol": "NMR-USDT",
+        "precision": 0.49,
+        "confidence": 0.515,
+        "score": 0.49,
+        "count1": 116
       },
       {
-        "symbol": "KAIA-USDT",
-        "precision": 0.474,
-        "confidence": 0.564,
-        "score": 0.474,
-        "count1": 300
-      },
-      {
-        "symbol": "G-USDT",
-        "precision": 0.456,
-        "confidence": 0.552,
-        "score": 0.456,
-        "count1": 96
+        "symbol": "POR-USDT",
+        "precision": 0.485,
+        "confidence": 0.506,
+        "score": 0.485,
+        "count1": 152
       }
     ],
     "top_sell": [
       {
-        "symbol": "LEO-USDT",
-        "precision": 0.607,
-        "confidence": 0.72,
-        "score": 0.607,
-        "count1": 62
-      },
-      {
         "symbol": "ZAMA-USDT",
-        "precision": 0.569,
-        "confidence": 0.552,
-        "score": 0.569,
-        "count1": 79
+        "precision": 0.604,
+        "confidence": 0.521,
+        "score": 0.604,
+        "count1": 83
       },
       {
-        "symbol": "OFC-USDT",
-        "precision": 0.528,
-        "confidence": 0.619,
-        "score": 0.528,
-        "count1": 49
+        "symbol": "LEO-USDT",
+        "precision": 0.576,
+        "confidence": 0.747,
+        "score": 0.576,
+        "count1": 135
+      },
+      {
+        "symbol": "KITE-USDT",
+        "precision": 0.521,
+        "confidence": 0.54,
+        "score": 0.521,
+        "count1": 144
+      },
+      {
+        "symbol": "HYPE-USDT",
+        "precision": 0.515,
+        "confidence": 0.503,
+        "score": 0.515,
+        "count1": 36
       },
       {
         "symbol": "DORA-USDT",
-        "precision": 0.523,
-        "confidence": 0.596,
-        "score": 0.523,
-        "count1": 188
-      },
-      {
-        "symbol": "SPK-USDT",
-        "precision": 0.5,
-        "confidence": 0.581,
-        "score": 0.5,
-        "count1": 145
+        "precision": 0.513,
+        "confidence": 0.626,
+        "score": 0.513,
+        "count1": 234
       }
     ],
-    "file_mtime": "2026-05-21T04:12:48.142158+00:00"
+    "file_mtime": "2026-05-21T08:14:00.563983+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1572,14 +1571,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-21T04:12:48.675033+00:00",
-      "entry_price": 77966.8,
-      "current_btc_price": 78019.7,
+      "entry_ts": "2026-05-21T08:14:01.110568+00:00",
+      "entry_price": 78077.8,
+      "current_btc_price": 78006.3,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.099,
-      "unrealized_pnl_pct": -0.136,
-      "unrealized_pnl_usdt": -0.1357
+      "ratio_at_entry": 0.132,
+      "unrealized_pnl_pct": 0.183,
+      "unrealized_pnl_usdt": 0.1832
     },
     "trades_history": [
       {
@@ -1847,15 +1846,29 @@
         "ratio_at_exit": 0.099,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-21T08:14:00.955708+00:00",
+        "open_ts": "2026-05-21T04:12:48.675033+00:00",
+        "entry_price": 77966.8,
+        "exit_price": 78072.7,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": -0.272,
+        "pnl_usdt": -0.2717,
+        "ratio_at_entry": 0.099,
+        "ratio_at_exit": 0.132,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 19,
+      "total_closed": 20,
       "win_count": 7,
-      "loss_count": 12,
-      "win_rate_pct": 36.8,
-      "net_pnl_usdt": 0.6311,
-      "avg_pnl_pct": 0.033
+      "loss_count": 13,
+      "win_rate_pct": 35.0,
+      "net_pnl_usdt": 0.3594,
+      "avg_pnl_pct": 0.018
     }
   }
 }
