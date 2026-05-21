@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-21T16:06:02.597682+00:00",
+  "generated_at": "2026-05-21T16:32:02.275577+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.1789,
     "positions_count": 0,
-    "last_cycle_at": "2026-05-21T12:05:26.892000+00:00",
-    "last_cycle_label_wib": "19:01",
+    "last_cycle_at": "2026-05-21T16:14:41.891000+00:00",
+    "last_cycle_label_wib": "23:01",
     "capital_snapshot_date": "2026-05-21"
   },
   "positions": [],
@@ -1515,96 +1515,96 @@
   },
   "current_signal": {
     "total": 260,
-    "buy_count": 25,
-    "sell_count": 235,
+    "buy_count": 20,
+    "sell_count": 240,
     "hold_count": 0,
-    "ratio": 0.106,
+    "ratio": 0.083,
     "precision_distribution": {
-      "0.50-0.60": 51,
-      "0-0.50": 208,
-      "0.60-0.70": 1
+      "0.50-0.60": 41,
+      "0-0.50": 218,
+      "0.70-0.75": 1
     },
     "count1_distribution": {
-      ">=20": 237,
-      "5-9": 6,
-      "10-19": 15,
-      "3-4": 2
+      ">=20": 235,
+      "10-19": 17,
+      "5-9": 5,
+      "3-4": 3
     },
     "top_buy": [
       {
-        "symbol": "ROBO-USDT",
-        "precision": 0.558,
-        "confidence": 0.59,
-        "score": 0.558,
-        "count1": 38
+        "symbol": "BNT-USDT",
+        "precision": 0.577,
+        "confidence": 0.512,
+        "score": 0.577,
+        "count1": 30
       },
       {
         "symbol": "DORA-USDT",
-        "precision": 0.534,
-        "confidence": 0.609,
-        "score": 0.534,
-        "count1": 50
+        "precision": 0.551,
+        "confidence": 0.607,
+        "score": 0.551,
+        "count1": 49
       },
       {
-        "symbol": "CTC-USDT",
-        "precision": 0.514,
-        "confidence": 0.535,
-        "score": 0.514,
-        "count1": 56
+        "symbol": "ROBO-USDT",
+        "precision": 0.549,
+        "confidence": 0.588,
+        "score": 0.549,
+        "count1": 47
       },
       {
-        "symbol": "ANIME-USDT",
-        "precision": 0.506,
-        "confidence": 0.556,
-        "score": 0.506,
-        "count1": 76
+        "symbol": "1INCH-USDT",
+        "precision": 0.52,
+        "confidence": 0.548,
+        "score": 0.52,
+        "count1": 48
       },
       {
-        "symbol": "TON-USDT",
-        "precision": 0.506,
-        "confidence": 0.501,
-        "score": 0.506,
-        "count1": 9
+        "symbol": "COMP-USDT",
+        "precision": 0.5,
+        "confidence": 0.511,
+        "score": 0.5,
+        "count1": 58
       }
     ],
     "top_sell": [
       {
-        "symbol": "ZEN-USDT",
-        "precision": 0.604,
-        "confidence": 0.509,
-        "score": 0.604,
-        "count1": 13
+        "symbol": "BABY-USDT",
+        "precision": 0.708,
+        "confidence": 0.574,
+        "score": 0.708,
+        "count1": 11
       },
       {
-        "symbol": "LINK-USDT",
-        "precision": 0.594,
-        "confidence": 0.514,
-        "score": 0.594,
-        "count1": 33
+        "symbol": "GAS-USDT",
+        "precision": 0.595,
+        "confidence": 0.661,
+        "score": 0.595,
+        "count1": 18
       },
       {
         "symbol": "OFC-USDT",
         "precision": 0.571,
-        "confidence": 0.559,
+        "confidence": 0.665,
         "score": 0.571,
         "count1": 30
       },
       {
         "symbol": "ENS-USDT",
-        "precision": 0.564,
-        "confidence": 0.57,
-        "score": 0.564,
-        "count1": 31
+        "precision": 0.566,
+        "confidence": 0.553,
+        "score": 0.566,
+        "count1": 28
       },
       {
-        "symbol": "BABY-USDT",
-        "precision": 0.564,
-        "confidence": 0.589,
-        "score": 0.564,
-        "count1": 20
+        "symbol": "CITY-USDT",
+        "precision": 0.56,
+        "confidence": 0.576,
+        "score": 0.56,
+        "count1": 64
       }
     ],
-    "file_mtime": "2026-05-21T12:05:26.789614+00:00"
+    "file_mtime": "2026-05-21T16:14:41.788491+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1615,12 +1615,12 @@
     "current_position": {
       "entry_ts": "2026-05-21T12:05:27.387798+00:00",
       "entry_price": 77269.0,
-      "current_btc_price": 77301.6,
+      "current_btc_price": 77214.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.108,
-      "unrealized_pnl_pct": -0.084,
-      "unrealized_pnl_usdt": -0.0844
+      "unrealized_pnl_pct": 0.142,
+      "unrealized_pnl_usdt": 0.1424
     },
     "trades_history": [
       {
