@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T09:32:02.153192+00:00",
+  "generated_at": "2026-05-21T10:32:02.154331+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.1789,
@@ -1474,95 +1474,96 @@
     }
   },
   "current_signal": {
-    "total": 262,
-    "buy_count": 30,
-    "sell_count": 232,
+    "total": 260,
+    "buy_count": 20,
+    "sell_count": 240,
     "hold_count": 0,
-    "ratio": 0.129,
+    "ratio": 0.083,
     "precision_distribution": {
-      "0.50-0.60": 12,
-      "0-0.50": 249,
-      "0.60-0.70": 1
+      "0.50-0.60": 53,
+      "0-0.50": 207
     },
     "count1_distribution": {
-      ">=20": 260,
-      "5-9": 2
+      ">=20": 236,
+      "5-9": 5,
+      "10-19": 18,
+      "3-4": 1
     },
     "top_buy": [
       {
         "symbol": "ROBO-USDT",
         "precision": 0.527,
-        "confidence": 0.577,
+        "confidence": 0.595,
         "score": 0.527,
-        "count1": 58
+        "count1": 50
       },
       {
-        "symbol": "CITY-USDT",
-        "precision": 0.512,
-        "confidence": 0.569,
-        "score": 0.512,
-        "count1": 153
+        "symbol": "ZEC-USDT",
+        "precision": 0.519,
+        "confidence": 0.517,
+        "score": 0.519,
+        "count1": 32
       },
       {
-        "symbol": "SUSHI-USDT",
-        "precision": 0.5,
-        "confidence": 0.576,
-        "score": 0.5,
-        "count1": 168
+        "symbol": "INJ-USDT",
+        "precision": 0.517,
+        "confidence": 0.528,
+        "score": 0.517,
+        "count1": 37
       },
       {
-        "symbol": "NMR-USDT",
-        "precision": 0.49,
-        "confidence": 0.515,
-        "score": 0.49,
-        "count1": 116
+        "symbol": "A-USDT",
+        "precision": 0.51,
+        "confidence": 0.532,
+        "score": 0.51,
+        "count1": 73
       },
       {
-        "symbol": "POR-USDT",
-        "precision": 0.485,
-        "confidence": 0.506,
-        "score": 0.485,
-        "count1": 152
+        "symbol": "KAITO-USDT",
+        "precision": 0.505,
+        "confidence": 0.505,
+        "score": 0.505,
+        "count1": 29
       }
     ],
     "top_sell": [
       {
-        "symbol": "ZAMA-USDT",
-        "precision": 0.604,
-        "confidence": 0.521,
-        "score": 0.604,
-        "count1": 83
+        "symbol": "RAY-USDT",
+        "precision": 0.596,
+        "confidence": 0.549,
+        "score": 0.596,
+        "count1": 50
       },
       {
-        "symbol": "LEO-USDT",
-        "precision": 0.576,
-        "confidence": 0.747,
-        "score": 0.576,
-        "count1": 135
+        "symbol": "GAS-USDT",
+        "precision": 0.595,
+        "confidence": 0.616,
+        "score": 0.595,
+        "count1": 28
       },
       {
-        "symbol": "KITE-USDT",
-        "precision": 0.521,
-        "confidence": 0.54,
-        "score": 0.521,
-        "count1": 144
+        "symbol": "BABY-USDT",
+        "precision": 0.586,
+        "confidence": 0.583,
+        "score": 0.586,
+        "count1": 9
       },
       {
-        "symbol": "HYPE-USDT",
-        "precision": 0.515,
-        "confidence": 0.503,
-        "score": 0.515,
-        "count1": 36
+        "symbol": "AR-USDT",
+        "precision": 0.575,
+        "confidence": 0.585,
+        "score": 0.575,
+        "count1": 35
       },
       {
-        "symbol": "DORA-USDT",
-        "precision": 0.513,
-        "confidence": 0.626,
-        "score": 0.513,
-        "count1": 234
+        "symbol": "S-USDT",
+        "precision": 0.56,
+        "confidence": 0.575,
+        "score": 0.56,
+        "count1": 47
       }
     ],
-    "file_mtime": "2026-05-21T08:14:00.563983+00:00"
+    "file_mtime": "2026-05-21T09:39:29.743340+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1573,12 +1574,12 @@
     "current_position": {
       "entry_ts": "2026-05-21T08:14:01.110568+00:00",
       "entry_price": 78077.8,
-      "current_btc_price": 77850.0,
+      "current_btc_price": 77264.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.132,
-      "unrealized_pnl_pct": 0.584,
-      "unrealized_pnl_usdt": 0.5835
+      "unrealized_pnl_pct": 2.085,
+      "unrealized_pnl_usdt": 2.0846
     },
     "trades_history": [
       {
