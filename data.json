@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-21T23:32:01.503284+00:00",
+  "generated_at": "2026-05-22T00:06:01.536800+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.1184,
     "positions_count": 0,
-    "last_cycle_at": "2026-05-21T20:05:23.566000+00:00",
-    "last_cycle_label_wib": "03:01",
+    "last_cycle_at": "2026-05-22T00:05:40.696000+00:00",
+    "last_cycle_label_wib": "07:01",
     "capital_snapshot_date": "2026-05-22"
   },
   "positions": [],
@@ -1530,20 +1530,40 @@
       "direction_match": false,
       "candle_state": "closed",
       "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-21T20:05:23.676000+00:00",
+      "cycle_wib": "2026-05-22 03:05 WIB",
+      "rule": "4H",
+      "buy": 24,
+      "sell": 233,
+      "ratio": 0.103,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-21 20:00 UTC",
+      "btc_start": 77688.4,
+      "btc_end": 77619.7,
+      "btc_open": 77688.4,
+      "btc_close": 77619.7,
+      "btc_return_pct": -0.088,
+      "actual_dir": "down",
+      "direction_match": true,
+      "candle_state": "closed",
+      "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 38,
-    "strict_matches": 18,
-    "sign_matches": 18,
-    "strict_pct": 47.4,
-    "sign_pct": 47.4,
+    "total_valid": 39,
+    "strict_matches": 19,
+    "sign_matches": 19,
+    "strict_pct": 48.7,
+    "sign_pct": 48.7,
     "by_bucket": {
       "very_bear": {
-        "n": 37,
-        "matches": 18,
-        "match_pct": 48.6,
-        "avg_btc_return": -0.104
+        "n": 38,
+        "matches": 19,
+        "match_pct": 50.0,
+        "avg_btc_return": -0.103
       },
       "bull": {
         "n": 1,
@@ -1555,95 +1575,95 @@
   },
   "current_signal": {
     "total": 259,
-    "buy_count": 24,
-    "sell_count": 235,
+    "buy_count": 21,
+    "sell_count": 238,
     "hold_count": 0,
-    "ratio": 0.102,
+    "ratio": 0.088,
     "precision_distribution": {
-      "0.50-0.60": 50,
-      "0-0.50": 207,
-      "0.60-0.70": 2
+      "0.50-0.60": 52,
+      "0-0.50": 207
     },
     "count1_distribution": {
-      ">=20": 237,
+      ">=20": 238,
       "10-19": 17,
-      "5-9": 5
+      "5-9": 3,
+      "3-4": 1
     },
     "top_buy": [
       {
-        "symbol": "DORA-USDT",
-        "precision": 0.567,
-        "confidence": 0.579,
-        "score": 0.567,
-        "count1": 49
+        "symbol": "BNT-USDT",
+        "precision": 0.589,
+        "confidence": 0.51,
+        "score": 0.589,
+        "count1": 27
       },
       {
-        "symbol": "BAND-USDT",
-        "precision": 0.516,
-        "confidence": 0.508,
-        "score": 0.516,
-        "count1": 61
+        "symbol": "DORA-USDT",
+        "precision": 0.554,
+        "confidence": 0.578,
+        "score": 0.554,
+        "count1": 40
+      },
+      {
+        "symbol": "A-USDT",
+        "precision": 0.519,
+        "confidence": 0.509,
+        "score": 0.519,
+        "count1": 92
       },
       {
         "symbol": "SPACE-USDT",
-        "precision": 0.512,
-        "confidence": 0.502,
-        "score": 0.512,
-        "count1": 51
+        "precision": 0.516,
+        "confidence": 0.516,
+        "score": 0.516,
+        "count1": 58
       },
       {
-        "symbol": "INJ-USDT",
-        "precision": 0.508,
-        "confidence": 0.52,
-        "score": 0.508,
-        "count1": 14
-      },
-      {
-        "symbol": "ROBO-USDT",
-        "precision": 0.507,
-        "confidence": 0.585,
-        "score": 0.507,
-        "count1": 47
+        "symbol": "MET-USDT",
+        "precision": 0.509,
+        "confidence": 0.555,
+        "score": 0.509,
+        "count1": 42
       }
     ],
     "top_sell": [
       {
-        "symbol": "BABY-USDT",
-        "precision": 0.647,
-        "confidence": 0.583,
-        "score": 0.647,
-        "count1": 17
-      },
-      {
         "symbol": "RAY-USDT",
-        "precision": 0.605,
-        "confidence": 0.535,
-        "score": 0.605,
-        "count1": 38
+        "precision": 0.587,
+        "confidence": 0.548,
+        "score": 0.587,
+        "count1": 44
       },
       {
-        "symbol": "GAS-USDT",
-        "precision": 0.57,
-        "confidence": 0.679,
-        "score": 0.57,
-        "count1": 25
-      },
-      {
-        "symbol": "STORJ-USDT",
-        "precision": 0.567,
-        "confidence": 0.587,
-        "score": 0.567,
-        "count1": 37
+        "symbol": "S-USDT",
+        "precision": 0.571,
+        "confidence": 0.604,
+        "score": 0.571,
+        "count1": 43
       },
       {
         "symbol": "LINK-USDT",
-        "precision": 0.563,
-        "confidence": 0.603,
-        "score": 0.563,
-        "count1": 35
+        "precision": 0.565,
+        "confidence": 0.523,
+        "score": 0.565,
+        "count1": 32
+      },
+      {
+        "symbol": "ROBO-USDT",
+        "precision": 0.565,
+        "confidence": 0.509,
+        "score": 0.565,
+        "count1": 49
+      },
+      {
+        "symbol": "GAS-USDT",
+        "precision": 0.557,
+        "confidence": 0.692,
+        "score": 0.557,
+        "count1": 23
       }
     ],
-    "file_mtime": "2026-05-21T20:05:23.464534+00:00"
+    "file_mtime": "2026-05-22T00:05:40.596266+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1652,14 +1672,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-21T20:05:24.061380+00:00",
-      "entry_price": 77673.0,
-      "current_btc_price": 77639.1,
+      "entry_ts": "2026-05-22T00:05:41.147414+00:00",
+      "entry_price": 77549.3,
+      "current_btc_price": 77556.4,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.103,
-      "unrealized_pnl_pct": 0.087,
-      "unrealized_pnl_usdt": 0.0873
+      "ratio_at_entry": 0.089,
+      "unrealized_pnl_pct": -0.018,
+      "unrealized_pnl_usdt": -0.0183
     },
     "trades_history": [
       {
@@ -1969,15 +1989,29 @@
         "ratio_at_exit": 0.103,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-22T00:05:41.008689+00:00",
+        "open_ts": "2026-05-21T20:05:24.061380+00:00",
+        "entry_price": 77673.0,
+        "exit_price": 77549.3,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": 0.319,
+        "pnl_usdt": 0.3185,
+        "ratio_at_entry": 0.103,
+        "ratio_at_exit": 0.089,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 22,
-      "win_count": 8,
+      "total_closed": 23,
+      "win_count": 9,
       "loss_count": 14,
-      "win_rate_pct": 36.4,
-      "net_pnl_usdt": 1.3978,
-      "avg_pnl_pct": 0.063
+      "win_rate_pct": 39.1,
+      "net_pnl_usdt": 1.7163,
+      "avg_pnl_pct": 0.075
     }
   }
 }
