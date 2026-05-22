@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-22T16:06:02.422651+00:00",
+  "generated_at": "2026-05-22T16:32:01.875408+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.1184,
     "positions_count": 1,
-    "last_cycle_at": "2026-05-22T12:05:46.736000+00:00",
-    "last_cycle_label_wib": "19:01",
+    "last_cycle_at": "2026-05-22T16:15:24.021000+00:00",
+    "last_cycle_label_wib": "23:01",
     "capital_snapshot_date": "2026-05-22"
   },
   "positions": [
@@ -13,12 +13,12 @@
       "symbol": "ROBO-USDT",
       "rule": "4H",
       "entry_price": 0.02192,
-      "current_price": 0.02208,
+      "current_price": 0.02199,
       "size": 23660.0,
       "quote_spent": 518.6272,
       "unrealized_pnl_pct": null,
       "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-22T22:59:00+07:00",
+      "exit_at": "2026-05-23T02:59:00+07:00",
       "atr_pct": 2.842,
       "opened_at": "2026-05-22T12:05:47.215182+00:00",
       "is_filled": false,
@@ -1652,97 +1652,97 @@
     }
   },
   "current_signal": {
-    "total": 51,
+    "total": 60,
     "buy_count": 5,
-    "sell_count": 46,
+    "sell_count": 55,
     "hold_count": 0,
-    "ratio": 0.109,
+    "ratio": 0.091,
     "precision_distribution": {
-      "0.50-0.60": 10,
-      "0-0.50": 39,
-      "0.60-0.70": 2
+      "0.50-0.60": 15,
+      "0-0.50": 44,
+      "0.60-0.70": 1
     },
     "count1_distribution": {
-      ">=20": 40,
+      ">=20": 48,
       "10-19": 7,
-      "5-9": 2,
-      "3-4": 2
+      "5-9": 4,
+      "3-4": 1
     },
     "top_buy": [
       {
         "symbol": "ROBO-USDT",
-        "precision": 0.598,
-        "confidence": 0.606,
-        "score": 0.598,
-        "count1": 29
-      },
-      {
-        "symbol": "ZORA-USDT",
-        "precision": 0.501,
-        "confidence": 0.606,
-        "score": 0.501,
-        "count1": 119
+        "precision": 0.596,
+        "confidence": 0.602,
+        "score": 0.596,
+        "count1": 39
       },
       {
         "symbol": "BERA-USDT",
-        "precision": 0.492,
-        "confidence": 0.62,
-        "score": 0.492,
-        "count1": 23
+        "precision": 0.494,
+        "confidence": 0.623,
+        "score": 0.494,
+        "count1": 19
       },
       {
-        "symbol": "WLD-USDT",
-        "precision": 0.417,
-        "confidence": 0.694,
-        "score": 0.417,
-        "count1": 80
+        "symbol": "IOTA-USDT",
+        "precision": 0.488,
+        "confidence": 0.606,
+        "score": 0.488,
+        "count1": 63
       },
       {
         "symbol": "FLUID-USDT",
-        "precision": 0.388,
-        "confidence": 0.615,
-        "score": 0.388,
-        "count1": 44
+        "precision": 0.425,
+        "confidence": 0.653,
+        "score": 0.425,
+        "count1": 33
+      },
+      {
+        "symbol": "WLD-USDT",
+        "precision": 0.387,
+        "confidence": 0.745,
+        "score": 0.387,
+        "count1": 66
       }
     ],
     "top_sell": [
       {
-        "symbol": "DORA-USDT",
-        "precision": 0.638,
-        "confidence": 0.616,
-        "score": 0.638,
-        "count1": 35
-      },
-      {
-        "symbol": "GAS-USDT",
-        "precision": 0.634,
-        "confidence": 0.629,
-        "score": 0.634,
-        "count1": 19
-      },
-      {
-        "symbol": "TRX-USDT",
-        "precision": 0.597,
-        "confidence": 0.644,
-        "score": 0.597,
-        "count1": 8
-      },
-      {
         "symbol": "AVNT-USDT",
-        "precision": 0.585,
-        "confidence": 0.631,
-        "score": 0.585,
-        "count1": 23
+        "precision": 0.625,
+        "confidence": 0.672,
+        "score": 0.625,
+        "count1": 29
+      },
+      {
+        "symbol": "GLM-USDT",
+        "precision": 0.589,
+        "confidence": 0.601,
+        "score": 0.589,
+        "count1": 9
+      },
+      {
+        "symbol": "DORA-USDT",
+        "precision": 0.584,
+        "confidence": 0.639,
+        "score": 0.584,
+        "count1": 33
+      },
+      {
+        "symbol": "ONT-USDT",
+        "precision": 0.579,
+        "confidence": 0.653,
+        "score": 0.579,
+        "count1": 34
       },
       {
         "symbol": "ADA-USDT",
-        "precision": 0.569,
+        "precision": 0.568,
         "confidence": 0.602,
-        "score": 0.569,
-        "count1": 14
+        "score": 0.568,
+        "count1": 17
       }
     ],
-    "file_mtime": "2026-05-22T12:05:46.625793+00:00"
+    "file_mtime": "2026-05-22T16:15:23.913398+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1753,12 +1753,12 @@
     "current_position": {
       "entry_ts": "2026-05-22T12:05:47.678402+00:00",
       "entry_price": 77428.6,
-      "current_btc_price": 76807.2,
+      "current_btc_price": 76969.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.116,
-      "unrealized_pnl_pct": 1.605,
-      "unrealized_pnl_usdt": 1.6051
+      "unrealized_pnl_pct": 1.187,
+      "unrealized_pnl_usdt": 1.1872
     },
     "trades_history": [
       {
