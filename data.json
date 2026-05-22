@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T04:06:01.487410+00:00",
+  "generated_at": "2026-05-22T04:32:02.295266+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 523.1184,
@@ -1600,90 +1600,91 @@
     "hold_count": 0,
     "ratio": 0.061,
     "precision_distribution": {
-      "0.50-0.60": 56,
-      "0-0.50": 205
+      "0.60-0.70": 8,
+      "0.50-0.60": 78,
+      "0-0.50": 175
     },
     "count1_distribution": {
-      ">=20": 244,
       "5-9": 4,
+      ">=20": 244,
       "10-19": 12,
       "3-4": 1
     },
     "top_buy": [
       {
+        "symbol": "TON-USDT",
+        "precision": 0.661,
+        "confidence": 0.506,
+        "score": 0.661,
+        "count1": 6
+      },
+      {
         "symbol": "MET-USDT",
-        "precision": 0.532,
+        "precision": 0.559,
         "confidence": 0.644,
-        "score": 0.532,
+        "score": 0.559,
         "count1": 31
       },
       {
         "symbol": "SPACE-USDT",
-        "precision": 0.518,
+        "precision": 0.544,
         "confidence": 0.536,
-        "score": 0.518,
+        "score": 0.544,
         "count1": 60
       },
       {
-        "symbol": "ZETA-USDT",
-        "precision": 0.517,
-        "confidence": 0.504,
-        "score": 0.517,
-        "count1": 45
-      },
-      {
-        "symbol": "TON-USDT",
-        "precision": 0.5,
-        "confidence": 0.506,
-        "score": 0.5,
-        "count1": 6
-      },
-      {
         "symbol": "KSM-USDT",
-        "precision": 0.497,
+        "precision": 0.535,
         "confidence": 0.506,
-        "score": 0.497,
+        "score": 0.535,
         "count1": 23
+      },
+      {
+        "symbol": "ARB-USDT",
+        "precision": 0.518,
+        "confidence": 0.508,
+        "score": 0.518,
+        "count1": 77
       }
     ],
     "top_sell": [
       {
+        "symbol": "ZEC-USDT",
+        "precision": 0.65,
+        "confidence": 0.573,
+        "score": 0.65,
+        "count1": 28
+      },
+      {
         "symbol": "ROBO-USDT",
-        "precision": 0.593,
+        "precision": 0.621,
         "confidence": 0.544,
-        "score": 0.593,
+        "score": 0.621,
         "count1": 47
       },
       {
-        "symbol": "RAY-USDT",
-        "precision": 0.589,
-        "confidence": 0.555,
-        "score": 0.589,
-        "count1": 46
+        "symbol": "DORA-USDT",
+        "precision": 0.615,
+        "confidence": 0.639,
+        "score": 0.615,
+        "count1": 42
       },
       {
-        "symbol": "S-USDT",
-        "precision": 0.574,
-        "confidence": 0.563,
-        "score": 0.574,
-        "count1": 36
+        "symbol": "APE-USDT",
+        "precision": 0.613,
+        "confidence": 0.538,
+        "score": 0.613,
+        "count1": 8
       },
       {
-        "symbol": "GAS-USDT",
-        "precision": 0.571,
-        "confidence": 0.666,
-        "score": 0.571,
-        "count1": 27
-      },
-      {
-        "symbol": "BABY-USDT",
-        "precision": 0.558,
-        "confidence": 0.557,
-        "score": 0.558,
-        "count1": 23
+        "symbol": "CC-USDT",
+        "precision": 0.611,
+        "confidence": 0.54,
+        "score": 0.611,
+        "count1": 29
       }
     ],
-    "file_mtime": "2026-05-22T04:05:40.900697+00:00"
+    "file_mtime": "2026-05-22T04:31:22.112952+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1694,12 +1695,12 @@
     "current_position": {
       "entry_ts": "2026-05-22T04:05:41.411351+00:00",
       "entry_price": 77825.9,
-      "current_btc_price": 77829.6,
+      "current_btc_price": 77793.9,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.062,
-      "unrealized_pnl_pct": -0.01,
-      "unrealized_pnl_usdt": -0.0095
+      "unrealized_pnl_pct": 0.082,
+      "unrealized_pnl_usdt": 0.0822
     },
     "trades_history": [
       {
