@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T20:06:02.380230+00:00",
+  "generated_at": "2026-05-24T20:32:02.426595+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -16,13 +16,13 @@
       "current_price": 0.02037,
       "size": 24245.6,
       "quote_spent": 493.39795999999996,
-      "unrealized_pnl_pct": null,
-      "unrealized_pnl_usdt": null,
+      "unrealized_pnl_pct": 0.098,
+      "unrealized_pnl_usdt": 0.4849,
       "exit_at": "2026-05-25T06:59:00+07:00",
       "atr_pct": 3.539,
       "opened_at": "2026-05-24T16:14:48.735920+00:00",
-      "is_filled": false,
-      "order_state": "live"
+      "is_filled": true,
+      "order_state": "filled"
     }
   ],
   "trades_history": [
@@ -1916,12 +1916,12 @@
     "current_position": {
       "entry_ts": "2026-05-24T20:05:37.397640+00:00",
       "entry_price": 76677.7,
-      "current_btc_price": 76658.8,
+      "current_btc_price": 76699.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.077,
-      "unrealized_pnl_pct": 0.049,
-      "unrealized_pnl_usdt": 0.0493
+      "unrealized_pnl_pct": -0.057,
+      "unrealized_pnl_usdt": -0.0569
     },
     "trades_history": [
       {
