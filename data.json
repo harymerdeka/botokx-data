@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T09:32:02.391346+00:00",
+  "generated_at": "2026-05-24T10:32:02.218464+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5891,
@@ -13,7 +13,7 @@
       "symbol": "ROBO-USDT",
       "rule": "4H",
       "entry_price": 0.02013,
-      "current_price": 0.02065,
+      "current_price": 0.02046,
       "size": 24510.6,
       "quote_spent": 493.3983779999999,
       "unrealized_pnl_pct": null,
@@ -1860,12 +1860,12 @@
     "current_position": {
       "entry_ts": "2026-05-24T08:05:28.201698+00:00",
       "entry_price": 76786.2,
-      "current_btc_price": 76915.0,
+      "current_btc_price": 77084.9,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.016,
-      "unrealized_pnl_pct": -0.335,
-      "unrealized_pnl_usdt": -0.3355
+      "unrealized_pnl_pct": -0.778,
+      "unrealized_pnl_usdt": -0.778
     },
     "trades_history": [
       {
