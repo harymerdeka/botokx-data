@@ -1,30 +1,14 @@
 {
-  "generated_at": "2026-05-24T11:32:02.161850+00:00",
+  "generated_at": "2026-05-24T12:06:01.723329+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5891,
-    "positions_count": 1,
-    "last_cycle_at": "2026-05-24T08:05:27.394000+00:00",
-    "last_cycle_label_wib": "15:01",
+    "positions_count": 0,
+    "last_cycle_at": "2026-05-24T12:05:27.956000+00:00",
+    "last_cycle_label_wib": "19:01",
     "capital_snapshot_date": "2026-05-24"
   },
-  "positions": [
-    {
-      "symbol": "ROBO-USDT",
-      "rule": "4H",
-      "entry_price": 0.02013,
-      "current_price": 0.02044,
-      "size": 24510.6,
-      "quote_spent": 493.3983779999999,
-      "unrealized_pnl_pct": null,
-      "unrealized_pnl_usdt": null,
-      "exit_at": "2026-05-24T18:59:00+07:00",
-      "atr_pct": 3.488,
-      "opened_at": "2026-05-24T08:05:27.840414+00:00",
-      "is_filled": false,
-      "order_state": "live"
-    }
-  ],
+  "positions": [],
   "trades_history": [
     {
       "ts": "2026-05-15T04:02:59.600474+00:00",
@@ -753,6 +737,18 @@
       "offset_pct": -2.0,
       "tp_pct": 8.0,
       "sl_pct": 4.0
+    },
+    {
+      "ts": "2026-05-24T12:05:28.405489+00:00",
+      "event": "sell",
+      "symbol": "ROBO-USDT",
+      "rule": "4H",
+      "entry_price": 0.02013,
+      "exit_price": null,
+      "pnl_usdt": null,
+      "pnl_pct": null,
+      "reason": "dust_below_min_sz",
+      "opened_at": "2026-05-24T08:05:27.840414+00:00"
     }
   ],
   "summary": {
@@ -765,26 +761,6 @@
     "avg_loss_pct": -1.645
   },
   "cycle_history": [
-    {
-      "cycle_ts_utc": "2026-05-17T04:03:16.856000+00:00",
-      "cycle_wib": "2026-05-17 11:03 WIB",
-      "rule": "4H",
-      "buy": 0,
-      "sell": 2,
-      "ratio": 0.0,
-      "breadth_bucket": "very_bear",
-      "predicted_dir": "down",
-      "btc_window_utc": "2026-05-17 04:00 UTC",
-      "btc_start": 78018.8,
-      "btc_end": 78183.8,
-      "btc_open": 78018.8,
-      "btc_close": 78183.8,
-      "btc_return_pct": 0.211,
-      "actual_dir": "up",
-      "direction_match": false,
-      "candle_state": "closed",
-      "capped": false
-    },
     {
       "cycle_ts_utc": "2026-05-17T08:03:17.602000+00:00",
       "cycle_wib": "2026-05-17 15:03 WIB",
@@ -1764,20 +1740,40 @@
       "direction_match": false,
       "candle_state": "closed",
       "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-24T08:05:27.395000+00:00",
+      "cycle_wib": "2026-05-24 15:05 WIB",
+      "rule": "4H",
+      "buy": 1,
+      "sell": 62,
+      "ratio": 0.016,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-24 08:00 UTC",
+      "btc_start": 76794.3,
+      "btc_end": 77317.6,
+      "btc_open": 76794.3,
+      "btc_close": 77317.6,
+      "btc_return_pct": 0.681,
+      "actual_dir": "up",
+      "direction_match": false,
+      "candle_state": "closed",
+      "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 53,
+    "total_valid": 54,
     "strict_matches": 25,
     "sign_matches": 25,
-    "strict_pct": 47.2,
-    "sign_pct": 47.2,
+    "strict_pct": 46.3,
+    "sign_pct": 46.3,
     "by_bucket": {
       "very_bear": {
-        "n": 52,
+        "n": 53,
         "matches": 25,
-        "match_pct": 48.1,
-        "avg_btc_return": -0.095
+        "match_pct": 47.2,
+        "avg_btc_return": -0.081
       },
       "bull": {
         "n": 1,
@@ -1788,68 +1784,83 @@
     }
   },
   "current_signal": {
-    "total": 65,
-    "buy_count": 1,
-    "sell_count": 64,
+    "total": 59,
+    "buy_count": 3,
+    "sell_count": 56,
     "hold_count": 0,
-    "ratio": 0.016,
+    "ratio": 0.054,
     "precision_distribution": {
-      "0.50-0.60": 9,
-      "0.60-0.70": 4,
-      "0-0.50": 52
+      "0-0.50": 45,
+      "0.60-0.70": 1,
+      "0.50-0.60": 13
     },
     "count1_distribution": {
-      ">=20": 54,
+      ">=20": 46,
+      "5-9": 3,
       "10-19": 9,
-      "5-9": 2
+      "3-4": 1
     },
     "top_buy": [
       {
-        "symbol": "ROBO-USDT",
-        "precision": 0.598,
-        "confidence": 0.605,
-        "score": 0.598,
-        "count1": 29
+        "symbol": "ZORA-USDT",
+        "precision": 0.434,
+        "confidence": 0.632,
+        "score": 0.434,
+        "count1": 76
+      },
+      {
+        "symbol": "IP-USDT",
+        "precision": 0.42,
+        "confidence": 0.629,
+        "score": 0.42,
+        "count1": 56
+      },
+      {
+        "symbol": "IOTA-USDT",
+        "precision": 0.4,
+        "confidence": 0.639,
+        "score": 0.4,
+        "count1": 70
       }
     ],
     "top_sell": [
       {
-        "symbol": "UNI-USDT",
-        "precision": 0.626,
-        "confidence": 0.635,
-        "score": 0.626,
-        "count1": 28
-      },
-      {
-        "symbol": "SLP-USDT",
-        "precision": 0.62,
-        "confidence": 0.604,
-        "score": 0.62,
-        "count1": 42
-      },
-      {
-        "symbol": "BTC-USDT",
-        "precision": 0.617,
-        "confidence": 0.637,
-        "score": 0.617,
-        "count1": 17
+        "symbol": "TRX-USDT",
+        "precision": 0.666,
+        "confidence": 0.64,
+        "score": 0.666,
+        "count1": 7
       },
       {
         "symbol": "CELO-USDT",
-        "precision": 0.611,
-        "confidence": 0.609,
-        "score": 0.611,
-        "count1": 39
+        "precision": 0.596,
+        "confidence": 0.61,
+        "score": 0.596,
+        "count1": 40
       },
       {
         "symbol": "BLUR-USDT",
-        "precision": 0.584,
-        "confidence": 0.623,
-        "score": 0.584,
-        "count1": 30
+        "precision": 0.591,
+        "confidence": 0.614,
+        "score": 0.591,
+        "count1": 33
+      },
+      {
+        "symbol": "UNI-USDT",
+        "precision": 0.583,
+        "confidence": 0.63,
+        "score": 0.583,
+        "count1": 33
+      },
+      {
+        "symbol": "BTC-USDT",
+        "precision": 0.574,
+        "confidence": 0.643,
+        "score": 0.574,
+        "count1": 13
       }
     ],
-    "file_mtime": "2026-05-24T08:05:27.275196+00:00"
+    "file_mtime": "2026-05-24T12:05:27.844704+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1858,14 +1869,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-24T08:05:28.201698+00:00",
-      "entry_price": 76786.2,
-      "current_btc_price": 77310.7,
+      "entry_ts": "2026-05-24T12:05:28.824781+00:00",
+      "entry_price": 77252.4,
+      "current_btc_price": 77245.8,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.016,
-      "unrealized_pnl_pct": -1.366,
-      "unrealized_pnl_usdt": -1.3661
+      "ratio_at_entry": 0.055,
+      "unrealized_pnl_pct": 0.017,
+      "unrealized_pnl_usdt": 0.0171
     },
     "trades_history": [
       {
@@ -2357,15 +2368,29 @@
         "ratio_at_exit": 0.016,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-24T12:05:28.680543+00:00",
+        "open_ts": "2026-05-24T08:05:28.201698+00:00",
+        "entry_price": 76786.2,
+        "exit_price": 77252.4,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": -1.214,
+        "pnl_usdt": -1.2143,
+        "ratio_at_entry": 0.016,
+        "ratio_at_exit": 0.055,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 35,
+      "total_closed": 36,
       "win_count": 14,
-      "loss_count": 21,
-      "win_rate_pct": 40.0,
-      "net_pnl_usdt": 3.5951,
-      "avg_pnl_pct": 0.103
+      "loss_count": 22,
+      "win_rate_pct": 38.9,
+      "net_pnl_usdt": 2.3808,
+      "avg_pnl_pct": 0.066
     }
   }
 }
