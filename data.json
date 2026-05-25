@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T00:06:01.962360+00:00",
+  "generated_at": "2026-05-25T00:32:01.970540+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -13,7 +13,7 @@
       "symbol": "SENT-USDT",
       "rule": "4H",
       "entry_price": 0.01583,
-      "current_price": 0.01604,
+      "current_price": 0.01606,
       "size": 31012.8,
       "quote_spent": 490.932624,
       "unrealized_pnl_pct": null,
@@ -1957,12 +1957,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T00:05:30.155914+00:00",
       "entry_price": 77162.0,
-      "current_btc_price": 77162.0,
+      "current_btc_price": 77227.7,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.13,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usdt": 0.0
+      "unrealized_pnl_pct": -0.17,
+      "unrealized_pnl_usdt": -0.1703
     },
     "trades_history": [
       {
