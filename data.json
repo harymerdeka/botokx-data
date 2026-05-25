@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-25T03:32:02.315819+00:00",
+  "generated_at": "2026-05-25T04:06:02.045096+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
     "positions_count": 0,
-    "last_cycle_at": "2026-05-25T00:05:28.574000+00:00",
-    "last_cycle_label_wib": "07:01",
+    "last_cycle_at": "2026-05-25T04:05:35.726000+00:00",
+    "last_cycle_label_wib": "11:01",
     "capital_snapshot_date": "2026-05-25"
   },
   "positions": [],
@@ -829,26 +829,6 @@
     "avg_loss_pct": -1.507
   },
   "cycle_history": [
-    {
-      "cycle_ts_utc": "2026-05-17T20:03:11.018000+00:00",
-      "cycle_wib": "2026-05-18 03:03 WIB",
-      "rule": "4H",
-      "buy": 19,
-      "sell": 97,
-      "ratio": 0.196,
-      "breadth_bucket": "very_bear",
-      "predicted_dir": "down",
-      "btc_window_utc": "2026-05-17 20:00 UTC",
-      "btc_start": 78412.7,
-      "btc_end": 77455.5,
-      "btc_open": 78412.7,
-      "btc_close": 77455.5,
-      "btc_return_pct": -1.221,
-      "actual_dir": "down",
-      "direction_match": true,
-      "candle_state": "closed",
-      "capped": false
-    },
     {
       "cycle_ts_utc": "2026-05-18T00:03:15.445000+00:00",
       "cycle_wib": "2026-05-18 07:03 WIB",
@@ -1828,20 +1808,40 @@
       "direction_match": false,
       "candle_state": "closed",
       "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-25T00:05:28.575000+00:00",
+      "cycle_wib": "2026-05-25 07:05 WIB",
+      "rule": "4H",
+      "buy": 7,
+      "sell": 54,
+      "ratio": 0.13,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-25 00:00 UTC",
+      "btc_start": 77072.3,
+      "btc_end": 77030.2,
+      "btc_open": 77072.3,
+      "btc_close": 77030.2,
+      "btc_return_pct": -0.055,
+      "actual_dir": "down",
+      "direction_match": true,
+      "candle_state": "closed",
+      "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 57,
-    "strict_matches": 26,
-    "sign_matches": 26,
-    "strict_pct": 45.6,
-    "sign_pct": 45.6,
+    "total_valid": 58,
+    "strict_matches": 27,
+    "sign_matches": 27,
+    "strict_pct": 46.6,
+    "sign_pct": 46.6,
     "by_bucket": {
       "very_bear": {
-        "n": 56,
-        "matches": 26,
-        "match_pct": 46.4,
-        "avg_btc_return": -0.082
+        "n": 57,
+        "matches": 27,
+        "match_pct": 47.4,
+        "avg_btc_return": -0.081
       },
       "bull": {
         "n": 1,
@@ -1852,97 +1852,57 @@
     }
   },
   "current_signal": {
-    "total": 62,
-    "buy_count": 7,
-    "sell_count": 55,
+    "total": 5,
+    "buy_count": 0,
+    "sell_count": 5,
     "hold_count": 0,
-    "ratio": 0.127,
+    "ratio": 0.0,
     "precision_distribution": {
-      "0.50-0.60": 9,
-      "0-0.50": 51,
-      "0.60-0.70": 2
+      "0-0.50": 5
     },
     "count1_distribution": {
-      ">=20": 46,
-      "10-19": 11,
-      "5-9": 3,
-      "3-4": 2
+      ">=20": 3,
+      "5-9": 2
     },
-    "top_buy": [
-      {
-        "symbol": "SENT-USDT",
-        "precision": 0.566,
-        "confidence": 0.609,
-        "score": 0.566,
-        "count1": 34
-      },
-      {
-        "symbol": "ROBO-USDT",
-        "precision": 0.546,
-        "confidence": 0.635,
-        "score": 0.546,
-        "count1": 45
-      },
-      {
-        "symbol": "BERA-USDT",
-        "precision": 0.471,
-        "confidence": 0.64,
-        "score": 0.471,
-        "count1": 12
-      },
-      {
-        "symbol": "ZORA-USDT",
-        "precision": 0.469,
-        "confidence": 0.667,
-        "score": 0.469,
-        "count1": 82
-      },
-      {
-        "symbol": "WLD-USDT",
-        "precision": 0.468,
-        "confidence": 0.715,
-        "score": 0.468,
-        "count1": 45
-      }
-    ],
+    "top_buy": [],
     "top_sell": [
       {
-        "symbol": "XCH-USDT",
-        "precision": 0.651,
-        "confidence": 0.608,
-        "score": 0.651,
-        "count1": 11
+        "symbol": "RESOLV-USDT",
+        "precision": 0.463,
+        "confidence": 0.724,
+        "score": 0.463,
+        "count1": 24
       },
       {
-        "symbol": "YB-USDT",
-        "precision": 0.614,
-        "confidence": 0.61,
-        "score": 0.614,
-        "count1": 19
+        "symbol": "NFT-USDT",
+        "precision": 0.4,
+        "confidence": 0.739,
+        "score": 0.4,
+        "count1": 67
       },
       {
-        "symbol": "TRX-USDT",
-        "precision": 0.563,
-        "confidence": 0.639,
-        "score": 0.563,
+        "symbol": "SPURS-USDT",
+        "precision": 0.303,
+        "confidence": 0.721,
+        "score": 0.303,
+        "count1": 33
+      },
+      {
+        "symbol": "USDT-AUD",
+        "precision": 0.303,
+        "confidence": 0.706,
+        "score": 0.303,
         "count1": 6
       },
       {
-        "symbol": "BNB-USDT",
-        "precision": 0.557,
-        "confidence": 0.604,
-        "score": 0.557,
-        "count1": 43
-      },
-      {
-        "symbol": "ICX-USDT",
-        "precision": 0.532,
-        "confidence": 0.608,
-        "score": 0.532,
-        "count1": 18
+        "symbol": "BRL1-USDT",
+        "precision": 0.211,
+        "confidence": 0.777,
+        "score": 0.211,
+        "count1": 9
       }
     ],
-    "file_mtime": "2026-05-25T00:05:28.463488+00:00"
+    "file_mtime": "2026-05-25T04:05:35.612564+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1951,14 +1911,14 @@
     "margin_usdt": 100.0,
     "ratio_threshold": 0.5,
     "current_position": {
-      "entry_ts": "2026-05-25T00:05:30.155914+00:00",
-      "entry_price": 77162.0,
-      "current_btc_price": 77093.3,
+      "entry_ts": "2026-05-25T04:05:36.160254+00:00",
+      "entry_price": 77047.7,
+      "current_btc_price": 77031.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
-      "ratio_at_entry": 0.13,
-      "unrealized_pnl_pct": 0.178,
-      "unrealized_pnl_usdt": 0.1781
+      "ratio_at_entry": 0.0,
+      "unrealized_pnl_pct": 0.043,
+      "unrealized_pnl_usdt": 0.0433
     },
     "trades_history": [
       {
@@ -2492,15 +2452,29 @@
         "ratio_at_exit": 0.13,
         "reason": "time_4h_exit",
         "dry_run": true
+      },
+      {
+        "close_ts": "2026-05-25T04:05:36.025939+00:00",
+        "open_ts": "2026-05-25T00:05:30.155914+00:00",
+        "entry_price": 77162.0,
+        "exit_price": 77047.7,
+        "leverage": 2.0,
+        "margin_usdt": 100.0,
+        "pnl_pct": 0.296,
+        "pnl_usdt": 0.2963,
+        "ratio_at_entry": 0.13,
+        "ratio_at_exit": 0.0,
+        "reason": "time_4h_exit",
+        "dry_run": true
       }
     ],
     "summary": {
-      "total_closed": 38,
-      "win_count": 15,
+      "total_closed": 39,
+      "win_count": 16,
       "loss_count": 23,
-      "win_rate_pct": 39.5,
-      "net_pnl_usdt": 2.6055,
-      "avg_pnl_pct": 0.069
+      "win_rate_pct": 41.0,
+      "net_pnl_usdt": 2.9018,
+      "avg_pnl_pct": 0.074
     }
   }
 }
