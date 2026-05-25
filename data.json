@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T07:32:02.198791+00:00",
+  "generated_at": "2026-05-25T08:06:01.334267+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -829,26 +829,6 @@
     "avg_loss_pct": -1.507
   },
   "cycle_history": [
-    {
-      "cycle_ts_utc": "2026-05-18T00:03:15.445000+00:00",
-      "cycle_wib": "2026-05-18 07:03 WIB",
-      "rule": "4H",
-      "buy": 23,
-      "sell": 100,
-      "ratio": 0.23,
-      "breadth_bucket": "very_bear",
-      "predicted_dir": "down",
-      "btc_window_utc": "2026-05-18 00:00 UTC",
-      "btc_start": 77455.5,
-      "btc_end": 76930.8,
-      "btc_open": 77453.8,
-      "btc_close": 76930.8,
-      "btc_return_pct": -0.677,
-      "actual_dir": "down",
-      "direction_match": true,
-      "candle_state": "closed",
-      "capped": false
-    },
     {
       "cycle_ts_utc": "2026-05-18T04:03:14.822000+00:00",
       "cycle_wib": "2026-05-18 11:03 WIB",
@@ -1828,20 +1808,40 @@
       "direction_match": true,
       "candle_state": "closed",
       "capped": false
+    },
+    {
+      "cycle_ts_utc": "2026-05-25T04:05:35.726000+00:00",
+      "cycle_wib": "2026-05-25 11:05 WIB",
+      "rule": "4H",
+      "buy": 0,
+      "sell": 4,
+      "ratio": 0.0,
+      "breadth_bucket": "very_bear",
+      "predicted_dir": "down",
+      "btc_window_utc": "2026-05-25 04:00 UTC",
+      "btc_start": 77030.2,
+      "btc_end": 77400.0,
+      "btc_open": 77030.3,
+      "btc_close": 77400.0,
+      "btc_return_pct": 0.48,
+      "actual_dir": "up",
+      "direction_match": false,
+      "candle_state": "closed",
+      "capped": false
     }
   ],
   "breadth_stats": {
-    "total_valid": 58,
+    "total_valid": 59,
     "strict_matches": 27,
     "sign_matches": 27,
-    "strict_pct": 46.6,
-    "sign_pct": 46.6,
+    "strict_pct": 45.8,
+    "sign_pct": 45.8,
     "by_bucket": {
       "very_bear": {
-        "n": 57,
+        "n": 58,
         "matches": 27,
-        "match_pct": 47.4,
-        "avg_btc_return": -0.081
+        "match_pct": 46.6,
+        "avg_btc_return": -0.072
       },
       "bull": {
         "n": 1,
@@ -1913,12 +1913,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 77251.6,
+      "current_btc_price": 77387.1,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": -0.529,
-      "unrealized_pnl_usdt": -0.5293
+      "unrealized_pnl_pct": -0.881,
+      "unrealized_pnl_usdt": -0.881
     },
     "trades_history": [
       {
