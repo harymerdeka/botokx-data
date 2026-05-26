@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T03:32:01.368746+00:00",
+  "generated_at": "2026-05-26T04:06:01.706711+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1852,57 +1852,58 @@
     }
   },
   "current_signal": {
-    "total": 5,
-    "buy_count": 0,
-    "sell_count": 5,
+    "total": 10,
+    "buy_count": 10,
+    "sell_count": 0,
     "hold_count": 0,
-    "ratio": 0.0,
+    "ratio": 10.0,
     "precision_distribution": {
-      "0-0.50": 5
+      "0.60-0.70": 3,
+      "0.50-0.60": 3,
+      "0-0.50": 4
     },
     "count1_distribution": {
-      ">=20": 3,
-      "5-9": 2
+      "0": 10
     },
-    "top_buy": [],
-    "top_sell": [
+    "top_buy": [
       {
-        "symbol": "RESOLV-USDT",
-        "precision": 0.463,
-        "confidence": 0.724,
-        "score": 0.463,
-        "count1": 24
+        "symbol": "MORPHO-USDT",
+        "precision": 0.686,
+        "confidence": 0.572,
+        "score": 0.686,
+        "count1": 0
       },
       {
-        "symbol": "NFT-USDT",
-        "precision": 0.4,
-        "confidence": 0.739,
-        "score": 0.4,
-        "count1": 67
+        "symbol": "ZRO-USDT",
+        "precision": 0.614,
+        "confidence": 0.597,
+        "score": 0.614,
+        "count1": 0
       },
       {
-        "symbol": "SPURS-USDT",
-        "precision": 0.303,
-        "confidence": 0.721,
-        "score": 0.303,
-        "count1": 33
+        "symbol": "MON-USDT",
+        "precision": 0.607,
+        "confidence": 0.6,
+        "score": 0.607,
+        "count1": 0
       },
       {
-        "symbol": "USDT-AUD",
-        "precision": 0.303,
-        "confidence": 0.706,
-        "score": 0.303,
-        "count1": 6
+        "symbol": "KITE-USDT",
+        "precision": 0.569,
+        "confidence": 0.554,
+        "score": 0.569,
+        "count1": 0
       },
       {
-        "symbol": "BRL1-USDT",
-        "precision": 0.211,
-        "confidence": 0.777,
-        "score": 0.211,
-        "count1": 9
+        "symbol": "HUMA-USDT",
+        "precision": 0.55,
+        "confidence": 0.591,
+        "score": 0.55,
+        "count1": 0
       }
     ],
-    "file_mtime": "2026-05-25T04:05:35.612564+00:00"
+    "top_sell": [],
+    "file_mtime": "2026-05-26T03:55:33.360648+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1913,12 +1914,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 76632.0,
+      "current_btc_price": 76641.9,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 1.079,
-      "unrealized_pnl_usdt": 1.0791
+      "unrealized_pnl_pct": 1.053,
+      "unrealized_pnl_usdt": 1.0534
     },
     "trades_history": [
       {
