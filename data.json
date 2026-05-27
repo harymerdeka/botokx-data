@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T16:06:02.182380+00:00",
+  "generated_at": "2026-05-27T16:32:02.013491+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1853,58 +1853,66 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 10,
-    "sell_count": 0,
+    "buy_count": 9,
+    "sell_count": 1,
     "hold_count": 0,
-    "ratio": 10.0,
+    "ratio": 9.0,
     "precision_distribution": {
-      "0.70-0.75": 1,
-      "0.60-0.70": 1,
-      "0.50-0.60": 4,
-      "0-0.50": 4
+      "0.60-0.70": 2,
+      "0.50-0.60": 6,
+      "0-0.50": 1,
+      "0.75-0.80": 1
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "TNSR-USDT",
-        "precision": 0.739,
-        "confidence": 0.652,
-        "score": 0.739,
-        "count1": 0
-      },
-      {
-        "symbol": "RSR-USDT",
-        "precision": 0.615,
+        "symbol": "CORE-USDT",
+        "precision": 0.625,
         "confidence": 0.561,
-        "score": 0.615,
+        "score": 0.625,
         "count1": 0
       },
       {
-        "symbol": "KITE-USDT",
-        "precision": 0.57,
-        "confidence": 0.571,
-        "score": 0.57,
+        "symbol": "VIRTUAL-USDT",
+        "precision": 0.618,
+        "confidence": 0.61,
+        "score": 0.618,
         "count1": 0
       },
       {
-        "symbol": "SOPH-USDT",
-        "precision": 0.519,
-        "confidence": 0.564,
-        "score": 0.519,
+        "symbol": "VELO-USDT",
+        "precision": 0.564,
+        "confidence": 0.566,
+        "score": 0.564,
         "count1": 0
       },
       {
-        "symbol": "KSM-USDT",
-        "precision": 0.516,
-        "confidence": 0.595,
-        "score": 0.516,
+        "symbol": "ZAMA-USDT",
+        "precision": 0.536,
+        "confidence": 0.598,
+        "score": 0.536,
+        "count1": 0
+      },
+      {
+        "symbol": "STORJ-USDT",
+        "precision": 0.528,
+        "confidence": 0.583,
+        "score": 0.528,
         "count1": 0
       }
     ],
-    "top_sell": [],
-    "file_mtime": "2026-05-27T16:01:00.364671+00:00"
+    "top_sell": [
+      {
+        "symbol": "BERA-USDT",
+        "precision": 0.775,
+        "confidence": 0.557,
+        "score": 0.775,
+        "count1": 0
+      }
+    ],
+    "file_mtime": "2026-05-27T16:25:20.354285+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1915,12 +1923,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 75231.0,
+      "current_btc_price": 75109.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 4.716,
-      "unrealized_pnl_usdt": 4.7158
+      "unrealized_pnl_pct": 5.032,
+      "unrealized_pnl_usdt": 5.0325
     },
     "trades_history": [
       {
