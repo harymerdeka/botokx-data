@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T15:32:01.442594+00:00",
+  "generated_at": "2026-05-27T16:06:02.182380+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1858,33 +1858,27 @@
     "hold_count": 0,
     "ratio": 10.0,
     "precision_distribution": {
+      "0.70-0.75": 1,
       "0.60-0.70": 1,
       "0.50-0.60": 4,
-      "0-0.50": 5
+      "0-0.50": 4
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
+        "symbol": "TNSR-USDT",
+        "precision": 0.739,
+        "confidence": 0.652,
+        "score": 0.739,
+        "count1": 0
+      },
+      {
         "symbol": "RSR-USDT",
         "precision": 0.615,
         "confidence": 0.561,
         "score": 0.615,
-        "count1": 0
-      },
-      {
-        "symbol": "TNSR-USDT",
-        "precision": 0.577,
-        "confidence": 0.662,
-        "score": 0.577,
-        "count1": 0
-      },
-      {
-        "symbol": "SAHARA-USDT",
-        "precision": 0.575,
-        "confidence": 0.552,
-        "score": 0.575,
         "count1": 0
       },
       {
@@ -1895,15 +1889,22 @@
         "count1": 0
       },
       {
-        "symbol": "ZAMA-USDT",
-        "precision": 0.51,
-        "confidence": 0.587,
-        "score": 0.51,
+        "symbol": "SOPH-USDT",
+        "precision": 0.519,
+        "confidence": 0.564,
+        "score": 0.519,
+        "count1": 0
+      },
+      {
+        "symbol": "KSM-USDT",
+        "precision": 0.516,
+        "confidence": 0.595,
+        "score": 0.516,
         "count1": 0
       }
     ],
     "top_sell": [],
-    "file_mtime": "2026-05-27T15:24:38.983541+00:00"
+    "file_mtime": "2026-05-27T16:01:00.364671+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1914,12 +1915,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 75461.8,
+      "current_btc_price": 75231.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 4.117,
-      "unrealized_pnl_usdt": 4.1167
+      "unrealized_pnl_pct": 4.716,
+      "unrealized_pnl_usdt": 4.7158
     },
     "trades_history": [
       {
