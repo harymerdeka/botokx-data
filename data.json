@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T11:32:02.047667+00:00",
+  "generated_at": "2026-05-28T12:06:02.029173+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1858,53 +1858,53 @@
     "hold_count": 0,
     "ratio": 10.0,
     "precision_distribution": {
+      "0.75-0.80": 1,
       "0.70-0.75": 1,
       "0.60-0.70": 1,
-      "0.50-0.60": 6,
-      "0-0.50": 2
+      "0.50-0.60": 7
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "APT-USDT",
-        "precision": 0.721,
-        "confidence": 0.58,
-        "score": 0.721,
+        "symbol": "RENDER-USDT",
+        "precision": 0.765,
+        "confidence": 0.551,
+        "score": 0.765,
         "count1": 0
       },
       {
-        "symbol": "RSR-USDT",
-        "precision": 0.641,
-        "confidence": 0.575,
-        "score": 0.641,
+        "symbol": "SWFTC-USDT",
+        "precision": 0.74,
+        "confidence": 0.58,
+        "score": 0.74,
         "count1": 0
       },
       {
         "symbol": "KNC-USDT",
-        "precision": 0.589,
-        "confidence": 0.636,
-        "score": 0.589,
+        "precision": 0.634,
+        "confidence": 0.581,
+        "score": 0.634,
         "count1": 0
       },
       {
-        "symbol": "TNSR-USDT",
-        "precision": 0.584,
-        "confidence": 0.576,
-        "score": 0.584,
+        "symbol": "ZAMA-USDT",
+        "precision": 0.577,
+        "confidence": 0.598,
+        "score": 0.577,
         "count1": 0
       },
       {
-        "symbol": "ETC-USDT",
-        "precision": 0.562,
-        "confidence": 0.561,
-        "score": 0.562,
+        "symbol": "BNT-USDT",
+        "precision": 0.552,
+        "confidence": 0.571,
+        "score": 0.552,
         "count1": 0
       }
     ],
     "top_sell": [],
-    "file_mtime": "2026-05-28T11:28:57.137332+00:00"
+    "file_mtime": "2026-05-28T12:05:25.193279+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1915,12 +1915,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73353.7,
+      "current_btc_price": 73471.7,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 9.589,
-      "unrealized_pnl_usdt": 9.5889
+      "unrealized_pnl_pct": 9.283,
+      "unrealized_pnl_usdt": 9.2826
     },
     "trades_history": [
       {
