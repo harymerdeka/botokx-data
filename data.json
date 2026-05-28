@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T07:32:02.088770+00:00",
+  "generated_at": "2026-05-28T08:06:01.869050+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1858,52 +1858,53 @@
     "hold_count": 0,
     "ratio": 10.0,
     "precision_distribution": {
-      "0.80-0.85": 1,
-      "0.60-0.70": 5,
-      "0.50-0.60": 4
+      "0.70-0.75": 1,
+      "0.60-0.70": 1,
+      "0.50-0.60": 6,
+      "0-0.50": 2
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "ICX-USDT",
-        "precision": 0.82,
-        "confidence": 0.597,
-        "score": 0.82,
-        "count1": 0
-      },
-      {
-        "symbol": "DORA-USDT",
-        "precision": 0.68,
-        "confidence": 0.567,
-        "score": 0.68,
-        "count1": 0
-      },
-      {
-        "symbol": "IMX-USDT",
-        "precision": 0.672,
-        "confidence": 0.55,
-        "score": 0.672,
-        "count1": 0
-      },
-      {
         "symbol": "APT-USDT",
-        "precision": 0.652,
-        "confidence": 0.557,
-        "score": 0.652,
+        "precision": 0.721,
+        "confidence": 0.58,
+        "score": 0.721,
+        "count1": 0
+      },
+      {
+        "symbol": "RSR-USDT",
+        "precision": 0.641,
+        "confidence": 0.575,
+        "score": 0.641,
         "count1": 0
       },
       {
         "symbol": "KNC-USDT",
-        "precision": 0.622,
-        "confidence": 0.606,
-        "score": 0.622,
+        "precision": 0.589,
+        "confidence": 0.636,
+        "score": 0.589,
+        "count1": 0
+      },
+      {
+        "symbol": "TNSR-USDT",
+        "precision": 0.584,
+        "confidence": 0.576,
+        "score": 0.584,
+        "count1": 0
+      },
+      {
+        "symbol": "ETC-USDT",
+        "precision": 0.562,
+        "confidence": 0.561,
+        "score": 0.562,
         "count1": 0
       }
     ],
     "top_sell": [],
-    "file_mtime": "2026-05-28T07:26:41.431087+00:00"
+    "file_mtime": "2026-05-28T08:03:02.291536+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1914,12 +1915,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73303.1,
+      "current_btc_price": 73391.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 9.72,
-      "unrealized_pnl_usdt": 9.7202
+      "unrealized_pnl_pct": 9.492,
+      "unrealized_pnl_usdt": 9.492
     },
     "trades_history": [
       {
