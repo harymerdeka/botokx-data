@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T20:06:01.846380+00:00",
+  "generated_at": "2026-05-28T20:32:01.900002+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1853,66 +1853,57 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 9,
-    "sell_count": 1,
+    "buy_count": 10,
+    "sell_count": 0,
     "hold_count": 0,
-    "ratio": 9.0,
+    "ratio": 10.0,
     "precision_distribution": {
-      "0.60-0.70": 2,
-      "0.50-0.60": 2,
-      "0-0.50": 5,
-      "0.80-0.85": 1
+      "0.60-0.70": 3,
+      "0.50-0.60": 3,
+      "0-0.50": 4
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
+        "symbol": "STRK-USDT",
+        "precision": 0.65,
+        "confidence": 0.636,
+        "score": 0.65,
+        "count1": 0
+      },
+      {
         "symbol": "SWFTC-USDT",
-        "precision": 0.625,
-        "confidence": 0.573,
-        "score": 0.625,
+        "precision": 0.607,
+        "confidence": 0.574,
+        "score": 0.607,
         "count1": 0
       },
       {
         "symbol": "APT-USDT",
-        "precision": 0.619,
-        "confidence": 0.602,
-        "score": 0.619,
+        "precision": 0.606,
+        "confidence": 0.588,
+        "score": 0.606,
         "count1": 0
       },
       {
-        "symbol": "ZAMA-USDT",
-        "precision": 0.576,
-        "confidence": 0.574,
-        "score": 0.576,
+        "symbol": "PIXEL-USDT",
+        "precision": 0.594,
+        "confidence": 0.565,
+        "score": 0.594,
         "count1": 0
       },
       {
-        "symbol": "STRK-USDT",
-        "precision": 0.55,
-        "confidence": 0.653,
-        "score": 0.55,
-        "count1": 0
-      },
-      {
-        "symbol": "CELO-USDT",
-        "precision": 0.479,
-        "confidence": 0.592,
-        "score": 0.479,
+        "symbol": "CORE-USDT",
+        "precision": 0.557,
+        "confidence": 0.687,
+        "score": 0.557,
         "count1": 0
       }
     ],
-    "top_sell": [
-      {
-        "symbol": "LSK-USDT",
-        "precision": 0.8,
-        "confidence": 0.669,
-        "score": 0.8,
-        "count1": 0
-      }
-    ],
-    "file_mtime": "2026-05-28T17:13:45.199144+00:00"
+    "top_sell": [],
+    "file_mtime": "2026-05-28T20:30:55.559590+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1923,12 +1914,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73338.7,
+      "current_btc_price": 73659.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 9.628,
-      "unrealized_pnl_usdt": 9.6278
+      "unrealized_pnl_pct": 8.795,
+      "unrealized_pnl_usdt": 8.7951
     },
     "trades_history": [
       {
