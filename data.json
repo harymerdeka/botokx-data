@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T23:32:01.488467+00:00",
+  "generated_at": "2026-05-28T00:06:02.109335+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1853,73 +1853,58 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 8,
-    "sell_count": 2,
+    "buy_count": 10,
+    "sell_count": 0,
     "hold_count": 0,
-    "ratio": 4.0,
+    "ratio": 10.0,
     "precision_distribution": {
-      "0.75-0.80": 2,
-      "0.50-0.60": 2,
-      "0-0.50": 5,
-      "0.70-0.75": 1
+      "0.70-0.75": 2,
+      "0.60-0.70": 2,
+      "0.50-0.60": 5,
+      "0-0.50": 1
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "TNSR-USDT",
-        "precision": 0.756,
-        "confidence": 0.619,
-        "score": 0.756,
-        "count1": 0
-      },
-      {
-        "symbol": "STORJ-USDT",
-        "precision": 0.533,
-        "confidence": 0.602,
-        "score": 0.533,
-        "count1": 0
-      },
-      {
-        "symbol": "CORE-USDT",
-        "precision": 0.506,
-        "confidence": 0.578,
-        "score": 0.506,
-        "count1": 0
-      },
-      {
-        "symbol": "SOPH-USDT",
-        "precision": 0.479,
+        "symbol": "VIRTUAL-USDT",
+        "precision": 0.746,
         "confidence": 0.586,
-        "score": 0.479,
+        "score": 0.746,
         "count1": 0
       },
       {
-        "symbol": "SEI-USDT",
-        "precision": 0.459,
-        "confidence": 0.556,
-        "score": 0.459,
-        "count1": 0
-      }
-    ],
-    "top_sell": [
-      {
-        "symbol": "OKB-USDT",
-        "precision": 0.767,
-        "confidence": 0.658,
-        "score": 0.767,
+        "symbol": "DORA-USDT",
+        "precision": 0.7,
+        "confidence": 0.595,
+        "score": 0.7,
         "count1": 0
       },
       {
-        "symbol": "ORDI-USDT",
-        "precision": 0.727,
-        "confidence": 0.563,
-        "score": 0.727,
+        "symbol": "SWFTC-USDT",
+        "precision": 0.619,
+        "confidence": 0.568,
+        "score": 0.619,
+        "count1": 0
+      },
+      {
+        "symbol": "TNSR-USDT",
+        "precision": 0.602,
+        "confidence": 0.684,
+        "score": 0.602,
+        "count1": 0
+      },
+      {
+        "symbol": "APE-USDT",
+        "precision": 0.585,
+        "confidence": 0.575,
+        "score": 0.585,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-05-27T23:28:42.377080+00:00"
+    "top_sell": [],
+    "file_mtime": "2026-05-28T00:05:07.457968+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1930,12 +1915,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 74362.0,
+      "current_btc_price": 74578.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 6.972,
-      "unrealized_pnl_usdt": 6.9715
+      "unrealized_pnl_pct": 6.41,
+      "unrealized_pnl_usdt": 6.4095
     },
     "trades_history": [
       {
