@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T03:37:29.592596+00:00",
+  "generated_at": "2026-05-29T03:41:57.411895+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1913,14 +1913,14 @@
         "count1": 0
       },
       {
-        "symbol": "ICP-USDT",
+        "symbol": "LSK-USDT",
         "precision": 0.7,
-        "confidence": 0.586,
+        "confidence": 0.656,
         "score": 0.7,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-05-29T03:37:29.272828+00:00"
+    "file_mtime": "2026-05-29T03:41:57.079742+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1931,12 +1931,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73348.1,
+      "current_btc_price": 73369.8,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 9.603,
-      "unrealized_pnl_usdt": 9.6034
+      "unrealized_pnl_pct": 9.547,
+      "unrealized_pnl_usdt": 9.5471
     },
     "trades_history": [
       {
