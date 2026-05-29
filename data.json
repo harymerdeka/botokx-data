@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T19:32:01.441256+00:00",
+  "generated_at": "2026-05-29T20:03:02.216808+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1924,60 +1924,62 @@
     "hold_count": 0,
     "ratio": 9.0,
     "precision_distribution": {
-      "0.50-0.60": 5,
-      "0-0.50": 4,
-      "0.70-0.75": 1
+      "0.70-0.75": 1,
+      "0.60-0.70": 2,
+      "0.50-0.60": 3,
+      "0-0.50": 3,
+      "0.75-0.80": 1
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "CATI-USDT",
-        "precision": 0.596,
-        "confidence": 0.554,
-        "score": 0.596,
+        "symbol": "AR-USDT",
+        "precision": 0.71,
+        "confidence": 0.644,
+        "score": 0.71,
+        "count1": 0
+      },
+      {
+        "symbol": "DORA-USDT",
+        "precision": 0.683,
+        "confidence": 0.571,
+        "score": 0.683,
+        "count1": 0
+      },
+      {
+        "symbol": "RENDER-USDT",
+        "precision": 0.633,
+        "confidence": 0.565,
+        "score": 0.633,
+        "count1": 0
+      },
+      {
+        "symbol": "SWFTC-USDT",
+        "precision": 0.583,
+        "confidence": 0.568,
+        "score": 0.583,
         "count1": 0
       },
       {
         "symbol": "OFC-USDT",
-        "precision": 0.553,
-        "confidence": 0.578,
-        "score": 0.553,
-        "count1": 0
-      },
-      {
-        "symbol": "STRK-USDT",
-        "precision": 0.542,
-        "confidence": 0.602,
-        "score": 0.542,
-        "count1": 0
-      },
-      {
-        "symbol": "APT-USDT",
-        "precision": 0.534,
-        "confidence": 0.55,
-        "score": 0.534,
-        "count1": 0
-      },
-      {
-        "symbol": "ZAMA-USDT",
-        "precision": 0.513,
-        "confidence": 0.561,
-        "score": 0.513,
+        "precision": 0.556,
+        "confidence": 0.7,
+        "score": 0.556,
         "count1": 0
       }
     ],
     "top_sell": [
       {
-        "symbol": "OMI-USDT",
-        "precision": 0.726,
-        "confidence": 0.569,
-        "score": 0.726,
+        "symbol": "ACT-USDT",
+        "precision": 0.756,
+        "confidence": 0.623,
+        "score": 0.756,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-05-29T19:15:38.775112+00:00"
+    "file_mtime": "2026-05-29T20:03:01.903739+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1988,12 +1990,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73440.1,
+      "current_btc_price": 73554.9,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 9.365,
-      "unrealized_pnl_usdt": 9.3646
+      "unrealized_pnl_pct": 9.067,
+      "unrealized_pnl_usdt": 9.0666
     },
     "trades_history": [
       {
