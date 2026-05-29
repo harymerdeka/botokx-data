@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T10:32:02.201477+00:00",
+  "generated_at": "2026-05-29T11:32:02.034168+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -829,6 +829,20 @@
       "precision": 0.65,
       "count_str": "",
       "confidence": 0.65,
+      "risk_level": "",
+      "cycle_buy_at": ""
+    },
+    {
+      "ts": "2026-05-29T10:42:57.331357+00:00",
+      "event": "buy",
+      "symbol": "ORDI-USDT",
+      "rule": "4H",
+      "entry_price": 3.388,
+      "size": 0.7184,
+      "quote_spent": 2.4339,
+      "precision": 0.706,
+      "count_str": "{0: 2, 1: 80}",
+      "confidence": 0.588,
       "risk_level": "",
       "cycle_buy_at": ""
     }
@@ -1929,12 +1943,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73603.3,
+      "current_btc_price": 73530.4,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 8.941,
-      "unrealized_pnl_usdt": 8.941
+      "unrealized_pnl_pct": 9.13,
+      "unrealized_pnl_usdt": 9.1302
     },
     "trades_history": [
       {
