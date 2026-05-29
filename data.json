@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T03:32:02.167168+00:00",
+  "generated_at": "2026-05-29T03:34:35.940273+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1899,13 +1899,6 @@
         "count1": 0
       },
       {
-        "symbol": "DASH-USDT",
-        "precision": 0.712,
-        "confidence": 0.607,
-        "score": 0.712,
-        "count1": 0
-      },
-      {
         "symbol": "NEO-USDT",
         "precision": 0.712,
         "confidence": 0.734,
@@ -1913,14 +1906,21 @@
         "count1": 0
       },
       {
-        "symbol": "LSK-USDT",
+        "symbol": "DASH-USDT",
+        "precision": 0.712,
+        "confidence": 0.607,
+        "score": 0.712,
+        "count1": 0
+      },
+      {
+        "symbol": "ICP-USDT",
         "precision": 0.7,
-        "confidence": 0.656,
+        "confidence": 0.586,
         "score": 0.7,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-05-29T03:31:31.340730+00:00"
+    "file_mtime": "2026-05-29T03:34:35.602417+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1931,12 +1931,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73399.6,
+      "current_btc_price": 73426.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 9.47,
-      "unrealized_pnl_usdt": 9.4697
+      "unrealized_pnl_pct": 9.4,
+      "unrealized_pnl_usdt": 9.3999
     },
     "trades_history": [
       {
