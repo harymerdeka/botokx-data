@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T02:11:15.231771+00:00",
+  "generated_at": "2026-05-30T02:18:41.209332+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -883,16 +883,28 @@
       "confidence": 0.572,
       "risk_level": "",
       "cycle_buy_at": ""
+    },
+    {
+      "ts": "2026-05-30T02:16:16.105991+00:00",
+      "event": "sell",
+      "symbol": "SWFTC-USDT",
+      "rule": "4H",
+      "entry_price": 0.003331,
+      "exit_price": 0.003281,
+      "pnl_usdt": -6.6313,
+      "pnl_pct": -1.5011,
+      "reason": "startup_recovery",
+      "opened_at": "2026-05-29T18:13:21.461333+00:00"
     }
   ],
   "summary": {
-    "total_trades": 15,
+    "total_trades": 16,
     "win_count": 4,
-    "loss_count": 11,
-    "net_pnl_usdt": -56.871,
-    "win_rate_pct": 26.7,
+    "loss_count": 12,
+    "net_pnl_usdt": -63.5023,
+    "win_rate_pct": 25.0,
     "avg_win_pct": 0.896,
-    "avg_loss_pct": -1.905
+    "avg_loss_pct": -1.871
   },
   "cycle_history": [
     {
@@ -1969,7 +1981,7 @@
       }
     ],
     "top_sell": [],
-    "file_mtime": "2026-05-30T02:11:14.919744+00:00"
+    "file_mtime": "2026-05-30T02:18:40.878706+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -1980,12 +1992,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73685.6,
+      "current_btc_price": 73661.0,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 8.727,
-      "unrealized_pnl_usdt": 8.7273
+      "unrealized_pnl_pct": 8.791,
+      "unrealized_pnl_usdt": 8.7912
     },
     "trades_history": [
       {
