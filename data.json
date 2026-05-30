@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T23:32:01.800946+00:00",
+  "generated_at": "2026-05-30T23:33:20.662156+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -935,6 +935,18 @@
       "confidence": 0.653,
       "risk_level": "",
       "cycle_buy_at": ""
+    },
+    {
+      "ts": "2026-05-30T23:33:20.319667+00:00",
+      "event": "sell",
+      "symbol": "JTO-USDT",
+      "rule": "4H",
+      "entry_price": 0.5396,
+      "exit_price": null,
+      "pnl_usdt": null,
+      "pnl_pct": null,
+      "reason": "tp_sl_hit",
+      "opened_at": "2026-05-30T13:28:07.029488+00:00"
     }
   ],
   "summary": {
@@ -2032,12 +2044,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73828.3,
+      "current_btc_price": 73818.4,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 8.357,
-      "unrealized_pnl_usdt": 8.3569
+      "unrealized_pnl_pct": 8.383,
+      "unrealized_pnl_usdt": 8.3826
     },
     "trades_history": [
       {
