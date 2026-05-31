@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T00:06:02.283921+00:00",
+  "generated_at": "2026-05-31T00:07:26.865452+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1983,57 +1983,72 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 10,
-    "sell_count": 0,
+    "buy_count": 8,
+    "sell_count": 2,
     "hold_count": 0,
-    "ratio": 10.0,
+    "ratio": 4.0,
     "precision_distribution": {
-      "0.60-0.70": 3,
-      "0.50-0.60": 4,
-      "0-0.50": 3
+      "0.50-0.60": 3,
+      "0-0.50": 5,
+      "0.70-0.75": 2
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "LIT-USDT",
-        "precision": 0.636,
-        "confidence": 0.562,
-        "score": 0.636,
+        "symbol": "CORE-USDT",
+        "precision": 0.574,
+        "confidence": 0.611,
+        "score": 0.574,
         "count1": 0
       },
       {
-        "symbol": "ZAMA-USDT",
-        "precision": 0.625,
-        "confidence": 0.564,
-        "score": 0.625,
+        "symbol": "POL-USDT",
+        "precision": 0.517,
+        "confidence": 0.569,
+        "score": 0.517,
         "count1": 0
       },
       {
-        "symbol": "ARKM-USDT",
-        "precision": 0.617,
-        "confidence": 0.555,
-        "score": 0.617,
+        "symbol": "DGB-USDT",
+        "precision": 0.505,
+        "confidence": 0.598,
+        "score": 0.505,
         "count1": 0
       },
       {
-        "symbol": "CATI-USDT",
-        "precision": 0.594,
-        "confidence": 0.586,
-        "score": 0.594,
+        "symbol": "RENDER-USDT",
+        "precision": 0.493,
+        "confidence": 0.594,
+        "score": 0.493,
         "count1": 0
       },
       {
-        "symbol": "NEAR-USDT",
-        "precision": 0.557,
-        "confidence": 0.562,
-        "score": 0.557,
+        "symbol": "ONDO-USDT",
+        "precision": 0.485,
+        "confidence": 0.597,
+        "score": 0.485,
         "count1": 0
       }
     ],
-    "top_sell": [],
-    "file_mtime": "2026-05-30T23:35:24.362422+00:00"
+    "top_sell": [
+      {
+        "symbol": "SNT-USDT",
+        "precision": 0.733,
+        "confidence": 0.63,
+        "score": 0.733,
+        "count1": 0
+      },
+      {
+        "symbol": "ICX-USDT",
+        "precision": 0.708,
+        "confidence": 0.573,
+        "score": 0.708,
+        "count1": 0
+      }
+    ],
+    "file_mtime": "2026-05-31T00:07:26.515682+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2044,12 +2059,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73863.2,
+      "current_btc_price": 73860.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 8.266,
-      "unrealized_pnl_usdt": 8.2663
+      "unrealized_pnl_pct": 8.273,
+      "unrealized_pnl_usdt": 8.2733
     },
     "trades_history": [
       {
