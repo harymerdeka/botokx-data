@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T08:06:02.069321+00:00",
+  "generated_at": "2026-05-31T08:06:36.673879+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1983,65 +1983,58 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 9,
-    "sell_count": 1,
+    "buy_count": 10,
+    "sell_count": 0,
     "hold_count": 0,
-    "ratio": 9.0,
+    "ratio": 10.0,
     "precision_distribution": {
-      "0.50-0.60": 8,
-      "0-0.50": 1,
-      "0.75-0.80": 1
+      "0.75-0.80": 1,
+      "0.70-0.75": 1,
+      "0.50-0.60": 6,
+      "0-0.50": 2
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "CORE-USDT",
-        "precision": 0.597,
-        "confidence": 0.688,
-        "score": 0.597,
+        "symbol": "OFC-USDT",
+        "precision": 0.786,
+        "confidence": 0.599,
+        "score": 0.786,
         "count1": 0
       },
       {
-        "symbol": "CATI-USDT",
-        "precision": 0.553,
-        "confidence": 0.554,
-        "score": 0.553,
-        "count1": 0
-      },
-      {
-        "symbol": "PARTI-USDT",
-        "precision": 0.543,
+        "symbol": "RSR-USDT",
+        "precision": 0.729,
         "confidence": 0.572,
-        "score": 0.543,
+        "score": 0.729,
         "count1": 0
       },
       {
-        "symbol": "APT-USDT",
-        "precision": 0.517,
-        "confidence": 0.55,
-        "score": 0.517,
+        "symbol": "DORA-USDT",
+        "precision": 0.596,
+        "confidence": 0.655,
+        "score": 0.596,
         "count1": 0
       },
       {
-        "symbol": "POL-USDT",
-        "precision": 0.514,
-        "confidence": 0.55,
-        "score": 0.514,
+        "symbol": "KAITO-USDT",
+        "precision": 0.535,
+        "confidence": 0.557,
+        "score": 0.535,
         "count1": 0
-      }
-    ],
-    "top_sell": [
+      },
       {
-        "symbol": "KSM-USDT",
-        "precision": 0.758,
-        "confidence": 0.588,
-        "score": 0.758,
+        "symbol": "DGB-USDT",
+        "precision": 0.523,
+        "confidence": 0.554,
+        "score": 0.523,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-05-31T04:04:30.260122+00:00"
+    "top_sell": [],
+    "file_mtime": "2026-05-31T08:06:36.354084+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2052,12 +2045,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73960.4,
+      "current_btc_price": 73937.3,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 8.014,
-      "unrealized_pnl_usdt": 8.014
+      "unrealized_pnl_pct": 8.074,
+      "unrealized_pnl_usdt": 8.074
     },
     "trades_history": [
       {
