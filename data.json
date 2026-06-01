@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T19:32:02.163326+00:00",
+  "generated_at": "2026-06-01T20:06:01.841340+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1077,6 +1077,20 @@
       "pnl_pct": null,
       "reason": "tp_sl_hit",
       "opened_at": "2026-06-01T07:56:01.110748+00:00"
+    },
+    {
+      "ts": "2026-06-01T19:43:28.459051+00:00",
+      "event": "buy",
+      "symbol": "SAHARA-USDT",
+      "rule": "4H",
+      "entry_price": 0.03323,
+      "size": 11769.3,
+      "quote_spent": 391.0938,
+      "precision": 0.845,
+      "count_str": "{0: 51, 1: 29}",
+      "confidence": 0.566,
+      "risk_level": "",
+      "cycle_buy_at": ""
     }
   ],
   "summary": {
@@ -2184,12 +2198,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 71607.9,
+      "current_btc_price": 71525.9,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 14.121,
-      "unrealized_pnl_usdt": 14.1206
+      "unrealized_pnl_pct": 14.333,
+      "unrealized_pnl_usdt": 14.3335
     },
     "trades_history": [
       {
