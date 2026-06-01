@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T04:32:01.972333+00:00",
+  "generated_at": "2026-06-01T05:24:24.232132+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -973,15 +973,41 @@
       "pnl_pct": 1.2378,
       "reason": "early_exit_profit_1pct",
       "opened_at": "2026-05-31T08:11:36.701421+00:00"
+    },
+    {
+      "ts": "2026-06-01T05:14:23.485550+00:00",
+      "event": "buy",
+      "symbol": "HUMA-USDT",
+      "rule": "4H",
+      "entry_price": 0.02734,
+      "size": 15125.2,
+      "quote_spent": 413.523,
+      "precision": 0.619,
+      "count_str": "{0: 73, 1: 9}",
+      "confidence": 0.568,
+      "risk_level": "",
+      "cycle_buy_at": ""
+    },
+    {
+      "ts": "2026-06-01T05:24:23.889108+00:00",
+      "event": "sell",
+      "symbol": "HUMA-USDT",
+      "rule": "4H",
+      "entry_price": 0.02734,
+      "exit_price": 0.02763,
+      "pnl_usdt": 4.3863,
+      "pnl_pct": 1.0607,
+      "reason": "early_exit_profit_1pct",
+      "opened_at": "2026-06-01T05:14:23.485550+00:00"
     }
   ],
   "summary": {
-    "total_trades": 18,
-    "win_count": 5,
+    "total_trades": 19,
+    "win_count": 6,
     "loss_count": 13,
-    "net_pnl_usdt": -61.9052,
-    "win_rate_pct": 27.8,
-    "avg_win_pct": 0.964,
+    "net_pnl_usdt": -57.5189,
+    "win_rate_pct": 31.6,
+    "avg_win_pct": 0.98,
     "avg_loss_pct": -1.789
   },
   "cycle_history": [
@@ -2070,12 +2096,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 73443.5,
+      "current_btc_price": 73476.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 9.356,
-      "unrealized_pnl_usdt": 9.3558
+      "unrealized_pnl_pct": 9.27,
+      "unrealized_pnl_usdt": 9.2701
     },
     "trades_history": [
       {
