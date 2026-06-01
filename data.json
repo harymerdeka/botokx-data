@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T16:11:13.378896+00:00",
+  "generated_at": "2026-06-01T16:13:26.043905+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2113,57 +2113,67 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 10,
-    "sell_count": 0,
+    "buy_count": 9,
+    "sell_count": 1,
     "hold_count": 0,
-    "ratio": 10.0,
+    "ratio": 9.0,
     "precision_distribution": {
-      "0.60-0.70": 3,
+      "0.80-0.85": 1,
+      "0.60-0.70": 2,
       "0.50-0.60": 1,
-      "0-0.50": 6
+      "0-0.50": 5,
+      "0.70-0.75": 1
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
+        "symbol": "SAHARA-USDT",
+        "precision": 0.845,
+        "confidence": 0.566,
+        "score": 0.845,
+        "count1": 0
+      },
+      {
         "symbol": "HUMA-USDT",
-        "precision": 0.619,
-        "confidence": 0.568,
-        "score": 0.619,
+        "precision": 0.685,
+        "confidence": 0.559,
+        "score": 0.685,
         "count1": 0
       },
       {
-        "symbol": "ROBO-USDT",
-        "precision": 0.605,
-        "confidence": 0.579,
-        "score": 0.605,
+        "symbol": "METIS-USDT",
+        "precision": 0.632,
+        "confidence": 0.55,
+        "score": 0.632,
         "count1": 0
       },
       {
-        "symbol": "BNT-USDT",
-        "precision": 0.601,
-        "confidence": 0.639,
-        "score": 0.601,
+        "symbol": "AIXBT-USDT",
+        "precision": 0.523,
+        "confidence": 0.567,
+        "score": 0.523,
         "count1": 0
       },
       {
-        "symbol": "WLD-USDT",
-        "precision": 0.5,
-        "confidence": 0.606,
-        "score": 0.5,
-        "count1": 0
-      },
-      {
-        "symbol": "CELO-USDT",
-        "precision": 0.491,
-        "confidence": 0.636,
-        "score": 0.491,
+        "symbol": "ZETA-USDT",
+        "precision": 0.495,
+        "confidence": 0.558,
+        "score": 0.495,
         "count1": 0
       }
     ],
-    "top_sell": [],
-    "file_mtime": "2026-06-01T07:31:00.461999+00:00"
+    "top_sell": [
+      {
+        "symbol": "OKSOL-USDT",
+        "precision": 0.729,
+        "confidence": 0.561,
+        "score": 0.729,
+        "count1": 0
+      }
+    ],
+    "file_mtime": "2026-06-01T16:13:25.682909+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2174,12 +2184,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 70811.9,
+      "current_btc_price": 70742.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 16.187,
-      "unrealized_pnl_usdt": 16.1869
+      "unrealized_pnl_pct": 16.367,
+      "unrealized_pnl_usdt": 16.367
     },
     "trades_history": [
       {
