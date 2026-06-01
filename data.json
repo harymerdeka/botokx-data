@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T16:06:01.747193+00:00",
+  "generated_at": "2026-06-01T16:11:13.378896+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1065,6 +1065,18 @@
       "confidence": 0.568,
       "risk_level": "",
       "cycle_buy_at": ""
+    },
+    {
+      "ts": "2026-06-01T16:11:13.052347+00:00",
+      "event": "sell",
+      "symbol": "HUMA-USDT",
+      "rule": "4H",
+      "entry_price": 0.02682,
+      "exit_price": null,
+      "pnl_usdt": null,
+      "pnl_pct": null,
+      "reason": "tp_sl_hit",
+      "opened_at": "2026-06-01T07:56:01.110748+00:00"
     }
   ],
   "summary": {
@@ -2162,12 +2174,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 71122.4,
+      "current_btc_price": 70811.9,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 15.381,
-      "unrealized_pnl_usdt": 15.3809
+      "unrealized_pnl_pct": 16.187,
+      "unrealized_pnl_usdt": 16.1869
     },
     "trades_history": [
       {
