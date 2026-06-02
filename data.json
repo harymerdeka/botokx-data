@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T05:32:01.402741+00:00",
+  "generated_at": "2026-06-02T06:22:02.495712+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1091,14 +1091,26 @@
       "confidence": 0.566,
       "risk_level": "",
       "cycle_buy_at": ""
+    },
+    {
+      "ts": "2026-06-02T06:19:33.560486+00:00",
+      "event": "sell",
+      "symbol": "SAHARA-USDT",
+      "rule": "4H",
+      "entry_price": 0.03323,
+      "exit_price": 0.03323,
+      "pnl_usdt": 0.0,
+      "pnl_pct": 0.0,
+      "reason": "startup_recovery",
+      "opened_at": "2026-06-01T19:43:28.459051+00:00"
     }
   ],
   "summary": {
-    "total_trades": 20,
+    "total_trades": 21,
     "win_count": 7,
     "loss_count": 13,
     "net_pnl_usdt": -52.7288,
-    "win_rate_pct": 35.0,
+    "win_rate_pct": 33.3,
     "avg_win_pct": 1.01,
     "avg_loss_pct": -1.789
   },
@@ -2127,67 +2139,75 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 9,
-    "sell_count": 1,
+    "buy_count": 8,
+    "sell_count": 2,
     "hold_count": 0,
-    "ratio": 9.0,
+    "ratio": 4.0,
     "precision_distribution": {
-      "0.80-0.85": 1,
-      "0.60-0.70": 2,
+      "0.85-0.90": 1,
+      "0.60-0.70": 1,
       "0.50-0.60": 1,
       "0-0.50": 5,
-      "0.70-0.75": 1
+      "0.80-0.85": 1,
+      "0.75-0.80": 1
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "SAHARA-USDT",
-        "precision": 0.845,
-        "confidence": 0.566,
-        "score": 0.845,
+        "symbol": "ZAMA-USDT",
+        "precision": 0.875,
+        "confidence": 0.653,
+        "score": 0.875,
         "count1": 0
       },
       {
-        "symbol": "HUMA-USDT",
-        "precision": 0.685,
-        "confidence": 0.559,
-        "score": 0.685,
-        "count1": 0
-      },
-      {
-        "symbol": "METIS-USDT",
-        "precision": 0.632,
-        "confidence": 0.55,
-        "score": 0.632,
-        "count1": 0
-      },
-      {
-        "symbol": "AIXBT-USDT",
-        "precision": 0.523,
+        "symbol": "NEAR-USDT",
+        "precision": 0.607,
         "confidence": 0.567,
-        "score": 0.523,
+        "score": 0.607,
         "count1": 0
       },
       {
-        "symbol": "ZETA-USDT",
-        "precision": 0.495,
-        "confidence": 0.558,
-        "score": 0.495,
+        "symbol": "BNT-USDT",
+        "precision": 0.596,
+        "confidence": 0.576,
+        "score": 0.596,
+        "count1": 0
+      },
+      {
+        "symbol": "GLM-USDT",
+        "precision": 0.466,
+        "confidence": 0.622,
+        "score": 0.466,
+        "count1": 0
+      },
+      {
+        "symbol": "LUNA-USDT",
+        "precision": 0.459,
+        "confidence": 0.567,
+        "score": 0.459,
         "count1": 0
       }
     ],
     "top_sell": [
       {
-        "symbol": "OKSOL-USDT",
-        "precision": 0.729,
-        "confidence": 0.561,
-        "score": 0.729,
+        "symbol": "LSK-USDT",
+        "precision": 0.846,
+        "confidence": 0.562,
+        "score": 0.846,
+        "count1": 0
+      },
+      {
+        "symbol": "GRT-USDT",
+        "precision": 0.773,
+        "confidence": 0.63,
+        "score": 0.773,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-06-01T16:13:25.682909+00:00"
+    "file_mtime": "2026-06-02T06:22:02.152380+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2198,12 +2218,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 70634.0,
+      "current_btc_price": 70307.4,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 16.649,
-      "unrealized_pnl_usdt": 16.6486
+      "unrealized_pnl_pct": 17.496,
+      "unrealized_pnl_usdt": 17.4964
     },
     "trades_history": [
       {
