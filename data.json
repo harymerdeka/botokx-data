@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:32:02.369982+00:00",
+  "generated_at": "2026-06-02T16:05:51.731055+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2196,10 +2196,9 @@
     "hold_count": 0,
     "ratio": 10.0,
     "precision_distribution": {
-      "0.75-0.80": 1,
-      "0.60-0.70": 2,
-      "0.50-0.60": 5,
-      "0-0.50": 2
+      "0.70-0.75": 1,
+      "0.60-0.70": 3,
+      "0.50-0.60": 6
     },
     "count1_distribution": {
       "0": 10
@@ -2207,42 +2206,42 @@
     "top_buy": [
       {
         "symbol": "OFC-USDT",
-        "precision": 0.765,
-        "confidence": 0.586,
-        "score": 0.765,
+        "precision": 0.72,
+        "confidence": 0.588,
+        "score": 0.72,
         "count1": 0
       },
       {
-        "symbol": "BNT-USDT",
-        "precision": 0.644,
-        "confidence": 0.558,
-        "score": 0.644,
+        "symbol": "RSR-USDT",
+        "precision": 0.662,
+        "confidence": 0.629,
+        "score": 0.662,
         "count1": 0
       },
       {
-        "symbol": "HUMA-USDT",
-        "precision": 0.6,
-        "confidence": 0.557,
-        "score": 0.6,
+        "symbol": "ROBO-USDT",
+        "precision": 0.629,
+        "confidence": 0.576,
+        "score": 0.629,
         "count1": 0
       },
       {
-        "symbol": "UMA-USDT",
-        "precision": 0.534,
-        "confidence": 0.583,
-        "score": 0.534,
+        "symbol": "AR-USDT",
+        "precision": 0.607,
+        "confidence": 0.582,
+        "score": 0.607,
         "count1": 0
       },
       {
-        "symbol": "KNC-USDT",
-        "precision": 0.533,
-        "confidence": 0.598,
-        "score": 0.533,
+        "symbol": "METIS-USDT",
+        "precision": 0.583,
+        "confidence": 0.561,
+        "score": 0.583,
         "count1": 0
       }
     ],
     "top_sell": [],
-    "file_mtime": "2026-06-02T14:28:46.247833+00:00"
+    "file_mtime": "2026-06-02T16:05:51.398456+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2253,12 +2252,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 67439.0,
+      "current_btc_price": 67480.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 24.942,
-      "unrealized_pnl_usdt": 24.9422
+      "unrealized_pnl_pct": 24.834,
+      "unrealized_pnl_usdt": 24.8345
     },
     "trades_history": [
       {
