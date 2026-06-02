@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T11:32:02.294217+00:00",
+  "generated_at": "2026-06-02T12:06:01.374949+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1129,6 +1129,20 @@
       "pnl_pct": -2.5494,
       "reason": "startup_recovery",
       "opened_at": "2026-06-02T06:37:02.658601+00:00"
+    },
+    {
+      "ts": "2026-06-02T12:01:27.586190+00:00",
+      "event": "buy",
+      "symbol": "OFC-USDT",
+      "rule": "4H",
+      "entry_price": 0.04852,
+      "size": 7810.1,
+      "quote_spent": 378.9461,
+      "precision": 0.81,
+      "count_str": "{0: 52, 1: 29}",
+      "confidence": 0.588,
+      "risk_level": "",
+      "cycle_buy_at": ""
     }
   ],
   "summary": {
@@ -2227,12 +2241,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 69432.4,
+      "current_btc_price": 69350.1,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 19.768,
-      "unrealized_pnl_usdt": 19.7678
+      "unrealized_pnl_pct": 19.981,
+      "unrealized_pnl_usdt": 19.9814
     },
     "trades_history": [
       {
