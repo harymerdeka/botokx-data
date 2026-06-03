@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T00:32:02.093703+00:00",
+  "generated_at": "2026-06-03T01:25:16.574096+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1195,15 +1195,27 @@
       "confidence": 0.651,
       "risk_level": "",
       "cycle_buy_at": ""
+    },
+    {
+      "ts": "2026-06-03T01:25:16.252460+00:00",
+      "event": "sell",
+      "symbol": "OFC-USDT",
+      "rule": "4H",
+      "entry_price": 0.04369,
+      "exit_price": 0.04501,
+      "pnl_usdt": 10.4873,
+      "pnl_pct": 3.0213,
+      "reason": "trailing_exit_3pct",
+      "opened_at": "2026-06-03T00:15:11.030174+00:00"
     }
   ],
   "summary": {
-    "total_trades": 22,
-    "win_count": 7,
+    "total_trades": 23,
+    "win_count": 8,
     "loss_count": 14,
-    "net_pnl_usdt": -62.6643,
-    "win_rate_pct": 31.8,
-    "avg_win_pct": 1.01,
+    "net_pnl_usdt": -52.177,
+    "win_rate_pct": 34.8,
+    "avg_win_pct": 1.262,
     "avg_loss_pct": -1.843
   },
   "cycle_history": [
@@ -2322,12 +2334,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 66783.9,
+      "current_btc_price": 66932.2,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 26.643,
-      "unrealized_pnl_usdt": 26.6427
+      "unrealized_pnl_pct": 26.258,
+      "unrealized_pnl_usdt": 26.2578
     },
     "trades_history": [
       {
