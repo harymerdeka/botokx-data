@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T23:32:01.427272+00:00",
+  "generated_at": "2026-06-03T00:05:10.905572+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2217,57 +2217,87 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 10,
-    "sell_count": 0,
+    "buy_count": 6,
+    "sell_count": 4,
     "hold_count": 0,
-    "ratio": 10.0,
+    "ratio": 1.5,
     "precision_distribution": {
-      "0.85-0.90": 1,
-      "0.60-0.70": 2,
-      "0.50-0.60": 7
+      "0.60-0.70": 4,
+      "0.50-0.60": 3,
+      "0-0.50": 2,
+      "0.70-0.75": 1
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "INJ-USDT",
-        "precision": 0.864,
-        "confidence": 0.556,
-        "score": 0.864,
-        "count1": 0
-      },
-      {
         "symbol": "OFC-USDT",
-        "precision": 0.693,
-        "confidence": 0.622,
-        "score": 0.693,
+        "precision": 0.615,
+        "confidence": 0.651,
+        "score": 0.615,
         "count1": 0
       },
       {
-        "symbol": "RSR-USDT",
-        "precision": 0.666,
-        "confidence": 0.558,
-        "score": 0.666,
+        "symbol": "AR-USDT",
+        "precision": 0.59,
+        "confidence": 0.569,
+        "score": 0.59,
         "count1": 0
       },
       {
-        "symbol": "CORE-USDT",
-        "precision": 0.582,
+        "symbol": "APE-USDT",
+        "precision": 0.543,
         "confidence": 0.552,
-        "score": 0.582,
+        "score": 0.543,
         "count1": 0
       },
       {
-        "symbol": "RVN-USDT",
-        "precision": 0.564,
-        "confidence": 0.57,
-        "score": 0.564,
+        "symbol": "MET-USDT",
+        "precision": 0.522,
+        "confidence": 0.562,
+        "score": 0.522,
+        "count1": 0
+      },
+      {
+        "symbol": "NAVX-USDT",
+        "precision": 0.452,
+        "confidence": 0.572,
+        "score": 0.452,
         "count1": 0
       }
     ],
-    "top_sell": [],
-    "file_mtime": "2026-06-02T23:28:07.222644+00:00"
+    "top_sell": [
+      {
+        "symbol": "RESOLV-USDT",
+        "precision": 0.702,
+        "confidence": 0.646,
+        "score": 0.702,
+        "count1": 0
+      },
+      {
+        "symbol": "TRX-USDT",
+        "precision": 0.679,
+        "confidence": 0.589,
+        "score": 0.679,
+        "count1": 0
+      },
+      {
+        "symbol": "JITOSOL-USDT",
+        "precision": 0.625,
+        "confidence": 0.629,
+        "score": 0.625,
+        "count1": 0
+      },
+      {
+        "symbol": "BERA-USDT",
+        "precision": 0.608,
+        "confidence": 0.591,
+        "score": 0.608,
+        "count1": 0
+      }
+    ],
+    "file_mtime": "2026-06-03T00:05:10.605754+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2278,12 +2308,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 66286.9,
+      "current_btc_price": 66749.4,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 27.933,
-      "unrealized_pnl_usdt": 27.9328
+      "unrealized_pnl_pct": 26.732,
+      "unrealized_pnl_usdt": 26.7323
     },
     "trades_history": [
       {
