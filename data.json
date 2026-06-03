@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T16:07:56.929678+00:00",
+  "generated_at": "2026-06-03T16:32:01.653843+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1207,6 +1207,20 @@
       "pnl_pct": 3.0213,
       "reason": "trailing_exit_3pct",
       "opened_at": "2026-06-03T00:15:11.030174+00:00"
+    },
+    {
+      "ts": "2026-06-03T16:27:57.163102+00:00",
+      "event": "buy",
+      "symbol": "PIXEL-USDT",
+      "rule": "4H",
+      "entry_price": 0.006702,
+      "size": 53164.71,
+      "quote_spent": 356.3099,
+      "precision": 0.758,
+      "count_str": "{0: 51, 1: 31}",
+      "confidence": 0.652,
+      "risk_level": "",
+      "cycle_buy_at": ""
     }
   ],
   "summary": {
@@ -2304,12 +2318,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 66083.9,
+      "current_btc_price": 65669.3,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 28.46,
-      "unrealized_pnl_usdt": 28.4598
+      "unrealized_pnl_pct": 29.536,
+      "unrealized_pnl_usdt": 29.536
     },
     "trades_history": [
       {
