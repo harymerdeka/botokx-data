@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T08:32:01.466109+00:00",
+  "generated_at": "2026-06-03T08:47:13.633135+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2243,88 +2243,56 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 4,
-    "sell_count": 6,
+    "buy_count": 10,
+    "sell_count": 0,
     "hold_count": 0,
-    "ratio": 0.667,
+    "ratio": 10.0,
     "precision_distribution": {
-      "0.50-0.60": 1,
-      "0-0.50": 3,
-      "0.80-0.85": 1,
-      "0.70-0.75": 2,
-      "0.60-0.70": 3
+      "0.60-0.70": 4,
+      "0.50-0.60": 6
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "NEAR-USDT",
-        "precision": 0.594,
-        "confidence": 0.681,
-        "score": 0.594,
+        "symbol": "CETUS-USDT",
+        "precision": 0.696,
+        "confidence": 0.737,
+        "score": 0.696,
         "count1": 0
       },
       {
-        "symbol": "VIRTUAL-USDT",
-        "precision": 0.454,
-        "confidence": 0.553,
-        "score": 0.454,
-        "count1": 0
-      },
-      {
-        "symbol": "AEVO-USDT",
-        "precision": 0.389,
-        "confidence": 0.596,
-        "score": 0.389,
-        "count1": 0
-      },
-      {
-        "symbol": "SUI-USDT",
-        "precision": 0.285,
+        "symbol": "ONDO-USDT",
+        "precision": 0.638,
         "confidence": 0.576,
-        "score": 0.285,
-        "count1": 0
-      }
-    ],
-    "top_sell": [
-      {
-        "symbol": "HUMA-USDT",
-        "precision": 0.812,
-        "confidence": 0.613,
-        "score": 0.812,
+        "score": 0.638,
         "count1": 0
       },
       {
-        "symbol": "CFG-USDT",
-        "precision": 0.718,
-        "confidence": 0.6,
-        "score": 0.718,
-        "count1": 0
-      },
-      {
-        "symbol": "SEI-USDT",
-        "precision": 0.708,
-        "confidence": 0.636,
-        "score": 0.708,
-        "count1": 0
-      },
-      {
-        "symbol": "CSPR-USDT",
-        "precision": 0.667,
-        "confidence": 0.572,
-        "score": 0.667,
-        "count1": 0
-      },
-      {
-        "symbol": "ICX-USDT",
+        "symbol": "AERGO-USDT",
         "precision": 0.613,
-        "confidence": 0.627,
+        "confidence": 0.615,
         "score": 0.613,
         "count1": 0
+      },
+      {
+        "symbol": "APE-USDT",
+        "precision": 0.6,
+        "confidence": 0.582,
+        "score": 0.6,
+        "count1": 0
+      },
+      {
+        "symbol": "ZRX-USDT",
+        "precision": 0.593,
+        "confidence": 0.598,
+        "score": 0.593,
+        "count1": 0
       }
     ],
-    "file_mtime": "2026-06-03T08:03:04.753412+00:00"
+    "top_sell": [],
+    "file_mtime": "2026-06-03T08:47:13.312980+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2335,12 +2303,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 67042.5,
+      "current_btc_price": 67093.7,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 25.971,
-      "unrealized_pnl_usdt": 25.9714
+      "unrealized_pnl_pct": 25.839,
+      "unrealized_pnl_usdt": 25.8385
     },
     "trades_history": [
       {
