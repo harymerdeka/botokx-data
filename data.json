@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T07:32:01.504517+00:00",
+  "generated_at": "2026-06-03T08:03:05.097349+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2243,15 +2243,16 @@
   },
   "current_signal": {
     "total": 10,
-    "buy_count": 3,
-    "sell_count": 7,
+    "buy_count": 4,
+    "sell_count": 6,
     "hold_count": 0,
-    "ratio": 0.429,
+    "ratio": 0.667,
     "precision_distribution": {
-      "0.50-0.60": 2,
-      "0-0.50": 1,
+      "0.50-0.60": 1,
+      "0-0.50": 3,
+      "0.80-0.85": 1,
       "0.70-0.75": 2,
-      "0.60-0.70": 5
+      "0.60-0.70": 3
     },
     "count1_distribution": {
       "0": 10
@@ -2259,64 +2260,71 @@
     "top_buy": [
       {
         "symbol": "NEAR-USDT",
-        "precision": 0.55,
-        "confidence": 0.628,
-        "score": 0.55,
+        "precision": 0.594,
+        "confidence": 0.681,
+        "score": 0.594,
         "count1": 0
       },
       {
-        "symbol": "SONIC-USDT",
-        "precision": 0.531,
-        "confidence": 0.586,
-        "score": 0.531,
+        "symbol": "VIRTUAL-USDT",
+        "precision": 0.454,
+        "confidence": 0.553,
+        "score": 0.454,
         "count1": 0
       },
       {
-        "symbol": "CORE-USDT",
-        "precision": 0.489,
-        "confidence": 0.559,
-        "score": 0.489,
+        "symbol": "AEVO-USDT",
+        "precision": 0.389,
+        "confidence": 0.596,
+        "score": 0.389,
+        "count1": 0
+      },
+      {
+        "symbol": "SUI-USDT",
+        "precision": 0.285,
+        "confidence": 0.576,
+        "score": 0.285,
         "count1": 0
       }
     ],
     "top_sell": [
       {
-        "symbol": "G-USDT",
-        "precision": 0.731,
-        "confidence": 0.588,
-        "score": 0.731,
+        "symbol": "HUMA-USDT",
+        "precision": 0.812,
+        "confidence": 0.613,
+        "score": 0.812,
         "count1": 0
       },
       {
-        "symbol": "LRC-USDT",
-        "precision": 0.704,
-        "confidence": 0.617,
-        "score": 0.704,
+        "symbol": "CFG-USDT",
+        "precision": 0.718,
+        "confidence": 0.6,
+        "score": 0.718,
         "count1": 0
       },
       {
-        "symbol": "OKSOL-USDT",
-        "precision": 0.69,
-        "confidence": 0.634,
-        "score": 0.69,
+        "symbol": "SEI-USDT",
+        "precision": 0.708,
+        "confidence": 0.636,
+        "score": 0.708,
         "count1": 0
       },
       {
-        "symbol": "OMI-USDT",
-        "precision": 0.69,
-        "confidence": 0.62,
-        "score": 0.69,
+        "symbol": "CSPR-USDT",
+        "precision": 0.667,
+        "confidence": 0.572,
+        "score": 0.667,
         "count1": 0
       },
       {
-        "symbol": "RESOLV-USDT",
-        "precision": 0.684,
-        "confidence": 0.584,
-        "score": 0.684,
+        "symbol": "ICX-USDT",
+        "precision": 0.613,
+        "confidence": 0.627,
+        "score": 0.613,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-06-03T07:00:01.550591+00:00"
+    "file_mtime": "2026-06-03T08:03:04.753412+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2327,12 +2335,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 67208.3,
+      "current_btc_price": 67185.5,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 25.541,
-      "unrealized_pnl_usdt": 25.5411
+      "unrealized_pnl_pct": 25.6,
+      "unrealized_pnl_usdt": 25.6002
     },
     "trades_history": [
       {
