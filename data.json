@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T02:07:15.387592+00:00",
+  "generated_at": "2026-06-04T02:09:19.721426+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2345,7 +2345,7 @@
       }
     ],
     "top_sell": [],
-    "file_mtime": "2026-06-04T00:07:12.389401+00:00"
+    "file_mtime": "2026-06-04T02:09:19.400445+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2356,12 +2356,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 62280.0,
+      "current_btc_price": 62179.4,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 38.334,
-      "unrealized_pnl_usdt": 38.3339
+      "unrealized_pnl_pct": 38.595,
+      "unrealized_pnl_usdt": 38.5951
     },
     "trades_history": [
       {
