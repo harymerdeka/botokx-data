@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T02:48:56.479202+00:00",
+  "generated_at": "2026-06-05T03:32:02.202141+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1285,6 +1285,20 @@
       "pnl_pct": null,
       "reason": "tp_sl_hit_tier0",
       "opened_at": "2026-06-04T04:31:19.637959+00:00"
+    },
+    {
+      "ts": "2026-06-05T03:03:56.653621+00:00",
+      "event": "buy",
+      "symbol": "LQTY-USDT",
+      "rule": "4H",
+      "entry_price": 0.2239,
+      "size": 1332.9695,
+      "quote_spent": 298.4519,
+      "precision": 0.764,
+      "count_str": "{0: 12, 1: 70}",
+      "confidence": 0.62,
+      "risk_level": "",
+      "cycle_buy_at": ""
     }
   ],
   "summary": {
@@ -2383,12 +2397,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 62748.0,
+      "current_btc_price": 62827.2,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 37.119,
-      "unrealized_pnl_usdt": 37.1191
+      "unrealized_pnl_pct": 36.913,
+      "unrealized_pnl_usdt": 36.9135
     },
     "trades_history": [
       {
