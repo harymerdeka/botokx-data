@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T21:32:02.146280+00:00",
+  "generated_at": "2026-06-08T22:32:01.708526+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -1389,6 +1389,20 @@
       "pnl_pct": null,
       "reason": "tp_sl_hit_tier1",
       "opened_at": "2026-06-07T18:46:02.729323+00:00"
+    },
+    {
+      "ts": "2026-06-08T22:20:07.565535+00:00",
+      "event": "buy",
+      "symbol": "XPL-USDT",
+      "rule": "4H",
+      "entry_price": 0.07052,
+      "size": 1277.57,
+      "quote_spent": 90.0942,
+      "precision": 0.652,
+      "count_str": "{0: 46, 1: 22}",
+      "confidence": 0.598,
+      "risk_level": "",
+      "cycle_buy_at": ""
     }
   ],
   "summary": {
@@ -2495,12 +2509,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 63643.2,
+      "current_btc_price": 63334.4,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 34.795,
-      "unrealized_pnl_usdt": 34.7953
+      "unrealized_pnl_pct": 35.597,
+      "unrealized_pnl_usdt": 35.5969
     },
     "trades_history": [
       {
