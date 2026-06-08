@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T16:06:01.675185+00:00",
+  "generated_at": "2026-06-08T16:08:01.943355+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2430,62 +2430,61 @@
     "hold_count": 0,
     "ratio": 9.0,
     "precision_distribution": {
-      "0.75-0.80": 1,
       "0.60-0.70": 1,
-      "0.50-0.60": 2,
+      "0.50-0.60": 3,
       "0-0.50": 5,
-      "0.70-0.75": 1
+      "0.75-0.80": 1
     },
     "count1_distribution": {
       "0": 10
     },
     "top_buy": [
       {
-        "symbol": "LQTY-USDT",
-        "precision": 0.75,
-        "confidence": 0.583,
-        "score": 0.75,
-        "count1": 0
-      },
-      {
         "symbol": "XPL-USDT",
-        "precision": 0.608,
-        "confidence": 0.613,
-        "score": 0.608,
-        "count1": 0
-      },
-      {
-        "symbol": "PHA-USDT",
-        "precision": 0.517,
-        "confidence": 0.578,
-        "score": 0.517,
-        "count1": 0
-      },
-      {
-        "symbol": "ARG-USDT",
-        "precision": 0.505,
-        "confidence": 0.575,
-        "score": 0.505,
+        "precision": 0.652,
+        "confidence": 0.598,
+        "score": 0.652,
         "count1": 0
       },
       {
         "symbol": "ONDO-USDT",
-        "precision": 0.491,
-        "confidence": 0.559,
-        "score": 0.491,
+        "precision": 0.544,
+        "confidence": 0.636,
+        "score": 0.544,
+        "count1": 0
+      },
+      {
+        "symbol": "OMI-USDT",
+        "precision": 0.535,
+        "confidence": 0.636,
+        "score": 0.535,
+        "count1": 0
+      },
+      {
+        "symbol": "JTO-USDT",
+        "precision": 0.52,
+        "confidence": 0.55,
+        "score": 0.52,
+        "count1": 0
+      },
+      {
+        "symbol": "SAFE-USDT",
+        "precision": 0.489,
+        "confidence": 0.602,
+        "score": 0.489,
         "count1": 0
       }
     ],
     "top_sell": [
       {
-        "symbol": "NMR-USDT",
-        "precision": 0.719,
-        "confidence": 0.623,
-        "score": 0.719,
+        "symbol": "AIXBT-USDT",
+        "precision": 0.75,
+        "confidence": 0.635,
+        "score": 0.75,
         "count1": 0
       }
     ],
-    "file_mtime": "2026-06-08T12:05:52.175639+00:00"
+    "file_mtime": "2026-06-08T16:08:01.565832+00:00"
   },
   "btc_short": {
     "enabled": true,
@@ -2496,12 +2495,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 63902.2,
+      "current_btc_price": 63864.8,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 34.123,
-      "unrealized_pnl_usdt": 34.123
+      "unrealized_pnl_pct": 34.22,
+      "unrealized_pnl_usdt": 34.2201
     },
     "trades_history": [
       {
