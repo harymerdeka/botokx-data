@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T00:06:59.142179+00:00",
+  "generated_at": "2026-06-28T00:32:01.585094+00:00",
   "history_start_utc": "2026-05-15T00:00:00+00:00",
   "bot_status": {
     "capital_usdt": 497.5525,
@@ -2459,12 +2459,12 @@
     "current_position": {
       "entry_ts": "2026-05-25T04:05:36.160254+00:00",
       "entry_price": 77047.7,
-      "current_btc_price": 60081.8,
+      "current_btc_price": 60157.2,
       "leverage": 2.0,
       "margin_usdt": 100.0,
       "ratio_at_entry": 0.0,
-      "unrealized_pnl_pct": 44.04,
-      "unrealized_pnl_usdt": 44.04
+      "unrealized_pnl_pct": 43.844,
+      "unrealized_pnl_usdt": 43.8443
     },
     "trades_history": [
       {
